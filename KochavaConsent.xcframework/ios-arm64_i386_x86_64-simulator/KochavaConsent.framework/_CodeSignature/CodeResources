@@ -38,15 +38,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7HgeEt4MnzdvwG3CwWtee+YZbYc=
+		9su9hoTnazupk1/zMwzCAYqPnCc=
 		</data>
 		<key>KVAConsentDialogViewController.nib/objects-11.0+.nib</key>
 		<data>
-		3JKpI6lxjdymgzNMNBx9A6UkD78=
+		SgGfTrt/cVVWZUv79Sxk7lHTJM8=
 		</data>
 		<key>KVAConsentDialogViewController.nib/runtime.nib</key>
 		<data>
-		sS46VAYPjvBjWEY3t5iGcm3tmDI=
+		/rwqkSORkiuFf4mQi08jJGpsUYE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -147,22 +147,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3JKpI6lxjdymgzNMNBx9A6UkD78=
+			SgGfTrt/cVVWZUv79Sxk7lHTJM8=
 			</data>
 			<key>hash2</key>
 			<data>
-			0i9MNljGxYb+XpnOmMKOajwKZLXDazX23GFZZsV//xg=
+			9brZpI5qoz0Eg/sEefxLJfN1m3RnT70kwQ1KiNrDiv8=
 			</data>
 		</dict>
 		<key>KVAConsentDialogViewController.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sS46VAYPjvBjWEY3t5iGcm3tmDI=
+			/rwqkSORkiuFf4mQi08jJGpsUYE=
 			</data>
 			<key>hash2</key>
 			<data>
-			iHQ0/zDzKewaLBQx+SDXvhNzlz8Hdt9esV60gxminiQ=
+			3V9DDT0UY06igUmc8LKavCJjXdfnmHe2JLcfuf/uLyM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
