@@ -1,0 +1,6 @@
+framework module KochavaConsent {
+  umbrella header "KochavaConsent.h"
+
+  export *
+  module * { export * }
+}

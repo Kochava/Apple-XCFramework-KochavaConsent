@@ -1,0 +1,129 @@
+//
+//  KVAUSPrivacyStringValue.h
+//  KochavaConsent
+//
+//  Created by John Bushnell on 2/7/20.
+//  Copyright © 2020 Kochava, Inc. All rights reserved.
+//
+
+
+
+#ifndef KVAUSPrivacyStringValue_h
+#define KVAUSPrivacyStringValue_h
+
+
+
+#pragma mark - IMPORT
+
+
+
+#ifdef KOCHAVA_FRAMEWORK
+#import <KochavaCore/KochavaCore.h>
+#else
+#if TARGET_OS_TV
+#import <JavaScriptCore/JavaScriptCore.h>
+#endif
+#import "KVAFromObjectProtocol.h"
+#endif
+
+
+
+#pragma mark - CLASS
+
+
+
+@class KVAUSPrivacyStringValue;
+
+
+
+#pragma mark - PROTOCOL
+
+
+
+#if TARGET_OS_TV
+@protocol KVAUSPrivacyStringValueJSExport <JSExport>
+@property (class, strong, nonatomic, nonnull, readonly) KVAUSPrivacyStringValue *yes;
+@property (class, strong, nonatomic, nonnull, readonly) KVAUSPrivacyStringValue *no;
+@property (class, strong, nonatomic, nonnull, readonly) KVAUSPrivacyStringValue *notApplicable;
+@property (strong, nonatomic, nonnull, readonly) NSString *nameString;
+@property (strong, nonatomic, nonnull, readonly) NSString *rawString;
+@end
+#endif
+
+
+
+#pragma mark - INTERFACE
+
+
+
+@interface KVAUSPrivacyStringValue : NSObject
+<
+#if TARGET_OS_TV
+KVAUSPrivacyStringValueJSExport,
+#endif
+KVAFromObjectProtocol
+>
+
+
+
+#pragma mark - ENUMERATED VALUES
+
+
+
+/*!
+ @property + yes
+ 
+ @brief An enumerated shared instance of KVAUSPrivacyStringValue for Yes.
+ */
+@property (class, strong, nonatomic, nonnull, readonly) KVAUSPrivacyStringValue *yes;
+
+
+
+/*!
+ @property + no
+ 
+ @brief An enumerated shared instance of KVAUSPrivacyStringValue for No.
+ */
+@property (class, strong, nonatomic, nonnull, readonly) KVAUSPrivacyStringValue *no;
+
+
+
+/*!
+ @property + notApplicable
+ 
+ @brief An enumerated shared instance of KVAUSPrivacyStringValue for Not Applicable.
+ */
+@property (class, strong, nonatomic, nonnull, readonly) KVAUSPrivacyStringValue *notApplicable;
+
+
+
+#pragma mark - PARAMETERS
+
+
+
+/*!
+ @property nameString
+ 
+ @brief The name.
+ */
+@property (strong, nonatomic, nonnull, readonly) NSString *nameString;
+
+
+
+/*!
+ @property rawString
+ 
+ @brief The raw string value as found in the IAB US Privacy String at a given position.
+ */
+@property (strong, nonatomic, nonnull, readonly) NSString *rawString;
+
+
+
+@end
+
+
+
+#endif
+
+
+
