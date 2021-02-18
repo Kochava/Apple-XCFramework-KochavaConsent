@@ -6,15 +6,15 @@
 	<dict>
 		<key>Frameworks/KochavaUI.framework/Info.plist</key>
 		<data>
-		2c1UM8wusL9k5VTJUqvKuS6bhGQ=
+		vUxo7I2kTA2cdfOONz2KfGtfRPw=
 		</data>
 		<key>Frameworks/KochavaUI.framework/KochavaUI</key>
 		<data>
-		X16dj+TROkCfVZkGy93jFJUqhGQ=
+		gQLALtgHgdmGcQn8oKeSalp3udc=
 		</data>
 		<key>Frameworks/KochavaUI.framework/_CodeSignature/CodeResources</key>
 		<data>
-		V5o9TV6lLknqiFLAHkgkCI4B0Gs=
+		fPjLcMCfGwuxEcuGkWsb1neH7Pw=
 		</data>
 		<key>Headers/KVAConsentAuditEntry.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Fr2RbmZVLljRxqvhLgMcG3hQnrY=
+		tu/q+6k65JxnPOA3+HHvGWvS4gw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,33 +59,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2c1UM8wusL9k5VTJUqvKuS6bhGQ=
+			vUxo7I2kTA2cdfOONz2KfGtfRPw=
 			</data>
 			<key>hash2</key>
 			<data>
-			VdCLbFv58nGe/wkN0yDCo6hNLlt6eCAgG9SoQ1rGf4M=
+			u2yzZSFbTqhOLIh0xIfFsRgVmZWGV8+GWpfuATxkeEs=
 			</data>
 		</dict>
 		<key>Frameworks/KochavaUI.framework/KochavaUI</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X16dj+TROkCfVZkGy93jFJUqhGQ=
+			gQLALtgHgdmGcQn8oKeSalp3udc=
 			</data>
 			<key>hash2</key>
 			<data>
-			CYrB5QPWADauxYPYCQnkWkkUNLVhw0EOnN/O9nlVqIE=
+			uI+FB9thMOE4XbeuzVOD3LSwUUZyLUU5UvquYWSlTFU=
 			</data>
 		</dict>
 		<key>Frameworks/KochavaUI.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V5o9TV6lLknqiFLAHkgkCI4B0Gs=
+			fPjLcMCfGwuxEcuGkWsb1neH7Pw=
 			</data>
 			<key>hash2</key>
 			<data>
-			SRaUzvOy94N/wvHOpZ2k7G/ncxrKR88h1xG13Sn1eC8=
+			WQp0LWyRsiGYzwrdHGw5obqYFFggQYhKSRjakE6osFQ=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentAuditEntry.h</key>
