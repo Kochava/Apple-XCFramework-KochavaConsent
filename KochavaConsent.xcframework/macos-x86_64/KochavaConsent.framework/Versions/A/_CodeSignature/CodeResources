@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		fPED2TJJ5LgBPNaQr/QSkCZCJoI=
+		G5P02/+6b4dCK3pIM7ASJI0nG08=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,56 +15,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MAmPP37NBAlUlFzEGJcznZtVr7toFqVTfrSb/TgBsXU=
+			pe4Gb7mDiLZmuo/w5snqzeMvxrk8QhILeyaEPyreMeo=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentClient.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9h/30dczwRlOZ9SoBcyY045+7uovWJGwv5nnL1vlcpA=
+			HYcFTXop8MearBNJHiG8q7Vr9EEJ40ahm3vPY9oOLUU=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentConfiguration.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MXx1+Fdz1MEDrv8teF8DebX6zKsCKehjzt8PQw0fMtA=
+			9IqC2VlktbuShedpnayx7KJ+vXpdN/tTe/FBXW1TAsg=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentDialogNavigationController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cEXysTfXgDO9U/coVnCZHsMladGYRgMyEto05fGgFAM=
+			bPYh9xWTCeU7YlVLmdpq2FpVn27zb2J6nSO5ZsUHFmU=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentProduct.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4tfBCQhlKm47zYACTCsDRp8Y44CQfq8+eGnKOnmWyLc=
+			vvgBmfjs3r10T401ncYoJlThfPUBbwqnJiEXd+oBYog=
 			</data>
 		</dict>
 		<key>Headers/KVAUSPrivacy.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LiRBZdOmZEmj2ljfGTGZlnzUEP1fJCSQBTCIIjDRo4g=
+			PBf1ZGJwF4Fl+wqWXc3okJbMdqdNdERL2PTOMqczB4w=
 			</data>
 		</dict>
 		<key>Headers/KVAUSPrivacyStringValue.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4psycKbOiap4fqtkYAmvmBcro2t3RMmKeFZXQP2v8kA=
+			h69a9R348YkcJB2Ed/tajRkb74hTYL9TZSEAwCNo3zI=
 			</data>
 		</dict>
 		<key>Headers/KochavaConsent.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A9ZHDybd72mbsKL6859BEx8LoiAIm1ruZZJhB2Ad2p0=
+			ESVzvE9JGfX61e2UpizuGAzFhgfkuubH08j5v3VxNxo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eoSci+AhfEokIwrhXZeL+CSTca6j1iwTEVVmdFyqZTg=
+			FbtDnS9rRW0zKEErkzI7KHYmcqJMFuYPpCU4YwiyDOc=
 			</data>
 		</dict>
 	</dict>

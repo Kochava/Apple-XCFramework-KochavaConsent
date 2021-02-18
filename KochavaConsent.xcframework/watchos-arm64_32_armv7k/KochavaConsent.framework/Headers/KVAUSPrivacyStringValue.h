@@ -3,7 +3,7 @@
 //  KochavaConsent
 //
 //  Created by John Bushnell on 2/7/20.
-//  Copyright © 2020 Kochava, Inc. All rights reserved.
+//  Copyright © 2020 - 2021 Kochava, Inc. All rights reserved.
 //
 
 
