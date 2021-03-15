@@ -4,55 +4,15 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/KVAConsentAuditEntry.h</key>
+		<key>Resources/Info.plist</key>
 		<data>
-		9zJ0Upc3ZX7LUAgyglS9284U+SE=
-		</data>
-		<key>Headers/KVAConsentClient.h</key>
-		<data>
-		hJkuLqWZEDAOh1WjBe1Bv4rwjpU=
-		</data>
-		<key>Headers/KVAConsentConfiguration.h</key>
-		<data>
-		MvwU9Zot7Un9aCcyX2/BdkifiQc=
-		</data>
-		<key>Headers/KVAConsentDialogNavigationController.h</key>
-		<data>
-		Ed3/J3ypT5ffwn8GaXO9KY6vo7c=
-		</data>
-		<key>Headers/KVAConsentProduct.h</key>
-		<data>
-		2p3Fdh/7dJnaAdQ+VzB7NYPEyqI=
-		</data>
-		<key>Headers/KVAUSPrivacy.h</key>
-		<data>
-		4zEv+S89HMSXAC3mNlYvFGrLzzs=
-		</data>
-		<key>Headers/KVAUSPrivacyStringValue.h</key>
-		<data>
-		KPhi5B0uwKPmAqnSyv3K0o0H4iw=
-		</data>
-		<key>Headers/KochavaConsent.h</key>
-		<data>
-		s44QAR2rn7urW3VDDYzcbfFRGIQ=
-		</data>
-		<key>Info.plist</key>
-		<data>
-		YQS7C5qVeFeHCfntdOd5Kz+CBdU=
-		</data>
-		<key>Modules/module.modulemap</key>
-		<data>
-		RAv3zO6oIfXUpFiS+MuN9LjaleE=
+		LTGLPJoN040B9e8BTjzH7gGdl6E=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/KVAConsentAuditEntry.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			9zJ0Upc3ZX7LUAgyglS9284U+SE=
-			</data>
 			<key>hash2</key>
 			<data>
 			pe4Gb7mDiLZmuo/w5snqzeMvxrk8QhILeyaEPyreMeo=
@@ -60,10 +20,6 @@
 		</dict>
 		<key>Headers/KVAConsentClient.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			hJkuLqWZEDAOh1WjBe1Bv4rwjpU=
-			</data>
 			<key>hash2</key>
 			<data>
 			HYcFTXop8MearBNJHiG8q7Vr9EEJ40ahm3vPY9oOLUU=
@@ -71,10 +27,6 @@
 		</dict>
 		<key>Headers/KVAConsentConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			MvwU9Zot7Un9aCcyX2/BdkifiQc=
-			</data>
 			<key>hash2</key>
 			<data>
 			9IqC2VlktbuShedpnayx7KJ+vXpdN/tTe/FBXW1TAsg=
@@ -82,10 +34,6 @@
 		</dict>
 		<key>Headers/KVAConsentDialogNavigationController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Ed3/J3ypT5ffwn8GaXO9KY6vo7c=
-			</data>
 			<key>hash2</key>
 			<data>
 			bPYh9xWTCeU7YlVLmdpq2FpVn27zb2J6nSO5ZsUHFmU=
@@ -93,10 +41,6 @@
 		</dict>
 		<key>Headers/KVAConsentProduct.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2p3Fdh/7dJnaAdQ+VzB7NYPEyqI=
-			</data>
 			<key>hash2</key>
 			<data>
 			vvgBmfjs3r10T401ncYoJlThfPUBbwqnJiEXd+oBYog=
@@ -104,10 +48,6 @@
 		</dict>
 		<key>Headers/KVAUSPrivacy.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			4zEv+S89HMSXAC3mNlYvFGrLzzs=
-			</data>
 			<key>hash2</key>
 			<data>
 			PBf1ZGJwF4Fl+wqWXc3okJbMdqdNdERL2PTOMqczB4w=
@@ -115,10 +55,6 @@
 		</dict>
 		<key>Headers/KVAUSPrivacyStringValue.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KPhi5B0uwKPmAqnSyv3K0o0H4iw=
-			</data>
 			<key>hash2</key>
 			<data>
 			h69a9R348YkcJB2Ed/tajRkb74hTYL9TZSEAwCNo3zI=
@@ -126,10 +62,6 @@
 		</dict>
 		<key>Headers/KochavaConsent.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			s44QAR2rn7urW3VDDYzcbfFRGIQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			ESVzvE9JGfX61e2UpizuGAzFhgfkuubH08j5v3VxNxo=
@@ -137,35 +69,38 @@
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RAv3zO6oIfXUpFiS+MuN9LjaleE=
-			</data>
 			<key>hash2</key>
 			<data>
 			g8insA8eO/mcffEcucLEElGUhVoAIPIlJygOvaUO5eY=
 			</data>
 		</dict>
+		<key>Resources/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8vKy83ZtpJRM7ZehRiOflvWlvaZb3CD85MOTH+yYe74=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^.*</key>
+		<key>^Resources/</key>
 		<true/>
-		<key>^.*\.lproj/</key>
+		<key>^Resources/.*\.lproj/</key>
 		<dict>
 			<key>optional</key>
 			<true/>
 			<key>weight</key>
 			<real>1000</real>
 		</dict>
-		<key>^.*\.lproj/locversion.plist$</key>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
 		</dict>
-		<key>^Base\.lproj/</key>
+		<key>^Resources/Base\.lproj/</key>
 		<dict>
 			<key>weight</key>
 			<real>1010</real>
@@ -187,27 +122,15 @@
 			<key>weight</key>
 			<real>2000</real>
 		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
 		<key>^.*</key>
 		<true/>
-		<key>^.*\.lproj/</key>
-		<dict>
-			<key>optional</key>
-			<true/>
-			<key>weight</key>
-			<real>1000</real>
-		</dict>
-		<key>^.*\.lproj/locversion.plist$</key>
-		<dict>
-			<key>omit</key>
-			<true/>
-			<key>weight</key>
-			<real>1100</real>
-		</dict>
-		<key>^Base\.lproj/</key>
-		<dict>
-			<key>weight</key>
-			<real>1010</real>
-		</dict>
 		<key>^Info\.plist$</key>
 		<dict>
 			<key>omit</key>
@@ -221,6 +144,37 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
+		</dict>
+		<key>^Resources/</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>
