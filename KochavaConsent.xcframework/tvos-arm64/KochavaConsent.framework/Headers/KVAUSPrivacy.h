@@ -79,7 +79,7 @@ KVAFromObjectProtocol
 
 
 /*!
-@property explicitNoticeGiven
+ @property explicitNoticeGiven
  
  @brief An enumerated instance of KVAUSPrivacyStringValue indicating if explicit notice has been given.
  */
@@ -88,7 +88,7 @@ KVAFromObjectProtocol
 
 
 /*!
-@property userOptedOutOfSale
+ @property userOptedOutOfSale
  
  @brief An enumerated instance of KVAUSPrivacyStringValue indicating if the user has opted out of the sale of their data.
  */
@@ -97,7 +97,7 @@ KVAFromObjectProtocol
 
 
 /*!
-@property coveredByLSPA
+ @property coveredByLSPA
  
  @brief An enumerated instance of KVAUSPrivacyStringValue indicating if the publisher intends for this transaction to be covered under the IAB Limited Service Provider Agreement (LSPA).
  */
@@ -106,10 +106,10 @@ KVAFromObjectProtocol
 
 
 /*!
-@property string
+ @property string
 
-@brief The IAB US Privacy string.
-*/
+ @brief The IAB US Privacy string.
+ */
 @property (strong, nonatomic, nullable, readwrite) NSString *string;
 
 

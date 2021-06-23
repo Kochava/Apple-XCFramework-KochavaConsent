@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		s/muQ8g5NJa22w2Bz83sHsRIwvg=
+		JURKmcElYrFhITenUhDYsUkJ54s=
 		</data>
 		<key>Resources/KVAConsentDialogViewController.nib</key>
 		<data>
-		n7EQPr//4tVXm+ipZUNvc+pRXMQ=
+		vphzacE502p3EJOXGu7gSOstaok=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -19,14 +19,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pe4Gb7mDiLZmuo/w5snqzeMvxrk8QhILeyaEPyreMeo=
+			TGldcOc0tGktj8Q6+Kbv+a7IhIit+dCd//UscOh3Uvs=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentClient.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HYcFTXop8MearBNJHiG8q7Vr9EEJ40ahm3vPY9oOLUU=
+			ZbpAyO+RO9h/416CjP1ghjiU5v7gAzZFmT3TFOD23xM=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentConfiguration.h</key>
@@ -54,7 +54,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PBf1ZGJwF4Fl+wqWXc3okJbMdqdNdERL2PTOMqczB4w=
+			8iRR8spu0WVClbihKJHiC9mdTIGmuPfIFCkeJyQVjhc=
 			</data>
 		</dict>
 		<key>Headers/KVAUSPrivacyStringValue.h</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GQ6rixHhZ1witfioGN2vaq7d9OWI2V5NrVqSGXKoDps=
+			FqvuhJclu2YOy3IF9TJp//BtKyoOB401jQOX8kunOdE=
 			</data>
 		</dict>
 		<key>Resources/KVAConsentDialogViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z7cF3B5qkiaTbwVixTjuSYlvBePNX8STqb3GbbGDSPk=
+			gwfI3Sbyv4FC3mE1yEl85/yTZdfXM93HGDWs6t82Jm0=
 			</data>
 		</dict>
 	</dict>

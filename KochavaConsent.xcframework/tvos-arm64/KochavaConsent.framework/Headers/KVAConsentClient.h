@@ -108,10 +108,10 @@
 
 
 /*!
-@property startedBool
+ @property startedBool
 
-@brief A boolean indicating if the instance has been started.
-*/
+ @brief A boolean indicating if the instance has been started.
+ */
 @property (readonly) BOOL startedBool;
 
 
@@ -130,14 +130,14 @@
 
 
 /*!
-@method - unregisterIdentity(withNameString:)
+ @method - unregisterIdentity(withNameString:)
 
-@brief Unregisters a previously registered identity.
+ @brief Unregisters a previously registered identity.
 
-@discussion It is safe to use this method with a nameString which may ultimately not be registered.  No warning will be generated.
+ @discussion It is safe to use this method with a nameString which may ultimately not be registered.  No warning will be generated.
  
-@param nameString The name of the type of identifier.
-*/
+ @param nameString The name of the type of identifier.
+ */
 - (void)unregisterIdentityWithNameString:(nonnull NSString *)nameString NS_SWIFT_NAME(unregisterIdentity(withNameString:));
 
 
@@ -149,10 +149,11 @@
  
  @discussion  By calling the KVAConsentClient start method, you have completed the basic integration with the KochavaConsent SDK.  The call to the configuration method should be located in the logic of your application where things first start up, such as your App Delegate's application:didFinishLaunchingWithOptions: method.
 
+ Swift example:
  @code
- [KVAConsentClient.shared start];
+ KVAConsentClient.shared.start()
  @endcode
-*/
+ */
 - (void)start;
 
 
@@ -168,11 +169,63 @@
 
 
 
+/*!
+ @method - configureWith:context:
+ 
+ @brief Configures (updates) the instance from another object.
+ 
+ @param withObject An object from which to update the instance.  This is expected to be a JSON dictionary, or alternatively a native instance.
+ 
+ @param context The context.
+ 
+ @discussion This method can be used to make special configurations to the instance.  This method is equivalent to the support provided by KVAConfigureWithObjectProtocol;  however, it is formalized with a dispatch to the Kochava SDK's globalSerial queue and a log message.
+ */
+- (void)configureWith:(nullable id)withObject context:(nullable KVAContext *)context NS_SWIFT_NAME(configure(with:context:));
+
+
+
 @end
 
 
 
-#pragma mark - feature ConsentConfiguration
+#pragma mark - feature Audit
+
+
+
+#ifdef KOCHAVA_FRAMEWORK
+#import <KochavaConsent/KVAConsentAuditEntry.h>
+#else
+#import "KVAConsentAuditEntry.h"  // for KVAConsentAuditEntryAdderProvider.
+#endif
+
+
+
+@protocol KVAConsentAuditEntryAdderProvider;
+
+
+
+#if TARGET_OS_TV
+@interface KVAConsentClient (Audit_Public) <KVAConsentAuditEntryAdderProvider>
+#else
+@interface KVAConsentClient (Audit_Public) <KVAConsentAuditEntryAdderProvider>
+#endif
+
+
+
+/*!
+ @property audit
+ 
+ @brief An instance of class KVAConsentAudit which conforms to protocol KVAConsentAuditEntryAdder.
+ */
+@property (strong, nonatomic, nonnull, readonly) NSObject<KVAConsentAuditEntryAdder> *audit;
+
+
+
+@end
+
+
+
+#pragma mark - feature Configuration
 
 
 
@@ -218,11 +271,11 @@ typedef void (^ KVAConsentConfigurationDidReceiveBlock) (KVAConsentConfiguration
 
 
 /*!
-@property didReceiveConfigurationBlock
+ @property didReceiveConfigurationBlock
  
-@brief A block which is called when there is an update to the configuration.
+ @brief A block which is called when there is an update to the configuration.
  
-@discussion This can be used to prompt the user for consent and to enable and/or disable functionality.
+ @discussion This can be used to prompt the user for consent and to enable and/or disable functionality.
  */
 @property (strong, nonatomic, nullable, readwrite) KVAConsentConfigurationDidReceiveBlock didReceiveConfigurationBlock;
 
@@ -257,10 +310,10 @@ typedef void (^ KVAConsentConfigurationDidReceiveBlock) (KVAConsentConfiguration
 
 
 /*!
-@property usPrivacy
+ @property usPrivacy
 
-@brief An instance of class KVAUSPrivacy providing an interface and support for the IAB US Privacy standard.
-*/
+ @brief An instance of class KVAUSPrivacy providing an interface and support for the IAB US Privacy standard.
+ */
 @property (strong, nonatomic, nonnull, readonly) KVAUSPrivacy *usPrivacy;
 
 

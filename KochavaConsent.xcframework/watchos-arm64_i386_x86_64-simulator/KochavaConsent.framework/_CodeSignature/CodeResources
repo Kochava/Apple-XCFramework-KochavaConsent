@@ -6,23 +6,23 @@
 	<dict>
 		<key>Frameworks/KochavaUI.framework/Info.plist</key>
 		<data>
-		mDZoQQIaADWvpEKVmw3gzDNhq/o=
+		Rw02Zz2dH9JbBqDqG0KjqA9iVuw=
 		</data>
 		<key>Frameworks/KochavaUI.framework/KochavaUI</key>
 		<data>
-		NlX0wixXww0CIxMHyOeK+s1dltI=
+		vnHSJW7AT3gmrzKCyDN1KrlgIPc=
 		</data>
 		<key>Frameworks/KochavaUI.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Y0aK9aVUK/6pb7xNc+ztBUAS3qc=
+		m3KdGIkZ3RK9BQG1uxJSCmTLSwU=
 		</data>
 		<key>Headers/KVAConsentAuditEntry.h</key>
 		<data>
-		9zJ0Upc3ZX7LUAgyglS9284U+SE=
+		p452QVMgkwrSonUKghvxCbLaxk0=
 		</data>
 		<key>Headers/KVAConsentClient.h</key>
 		<data>
-		hJkuLqWZEDAOh1WjBe1Bv4rwjpU=
+		siBwKJS+hcDt+ZQy5ba/HY2u6pU=
 		</data>
 		<key>Headers/KVAConsentConfiguration.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/KVAUSPrivacy.h</key>
 		<data>
-		4zEv+S89HMSXAC3mNlYvFGrLzzs=
+		6c6boqcgdYloC9HlawpOmNVIBys=
 		</data>
 		<key>Headers/KVAUSPrivacyStringValue.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		N91YoqgCtx17g4lY+QQlCzeKYak=
+		UhvTvwI4qOKDjD1UwrfWuN+CUUg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,55 +59,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mDZoQQIaADWvpEKVmw3gzDNhq/o=
+			Rw02Zz2dH9JbBqDqG0KjqA9iVuw=
 			</data>
 			<key>hash2</key>
 			<data>
-			b+SB+IitWMfkxypqU5KX1U9YWZAk3V0QHRUmQAp6UJs=
+			JeZVxYZicFHJ/pE9OiAhkM02xX4VToOkOp6MY18KMy8=
 			</data>
 		</dict>
 		<key>Frameworks/KochavaUI.framework/KochavaUI</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NlX0wixXww0CIxMHyOeK+s1dltI=
+			vnHSJW7AT3gmrzKCyDN1KrlgIPc=
 			</data>
 			<key>hash2</key>
 			<data>
-			HBl0GdCEW/gIu3UEtKvyX5nVdYj+eTwMgIdl+Xufu/U=
+			s/a7XSv52v3zsAddruCfeOsYllKhCB2TaXzRPolYrr4=
 			</data>
 		</dict>
 		<key>Frameworks/KochavaUI.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Y0aK9aVUK/6pb7xNc+ztBUAS3qc=
+			m3KdGIkZ3RK9BQG1uxJSCmTLSwU=
 			</data>
 			<key>hash2</key>
 			<data>
-			LItkrYTh7kH1Hrzljp80Oqa8B5JePCfzUN1EgCVNIAc=
+			hHXsL8RNId2GwMFve5JAxJsWSioIijc65E8Rrhi/SCk=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentAuditEntry.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9zJ0Upc3ZX7LUAgyglS9284U+SE=
+			p452QVMgkwrSonUKghvxCbLaxk0=
 			</data>
 			<key>hash2</key>
 			<data>
-			pe4Gb7mDiLZmuo/w5snqzeMvxrk8QhILeyaEPyreMeo=
+			TGldcOc0tGktj8Q6+Kbv+a7IhIit+dCd//UscOh3Uvs=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentClient.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hJkuLqWZEDAOh1WjBe1Bv4rwjpU=
+			siBwKJS+hcDt+ZQy5ba/HY2u6pU=
 			</data>
 			<key>hash2</key>
 			<data>
-			HYcFTXop8MearBNJHiG8q7Vr9EEJ40ahm3vPY9oOLUU=
+			ZbpAyO+RO9h/416CjP1ghjiU5v7gAzZFmT3TFOD23xM=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentConfiguration.h</key>
@@ -136,11 +136,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4zEv+S89HMSXAC3mNlYvFGrLzzs=
+			6c6boqcgdYloC9HlawpOmNVIBys=
 			</data>
 			<key>hash2</key>
 			<data>
-			PBf1ZGJwF4Fl+wqWXc3okJbMdqdNdERL2PTOMqczB4w=
+			8iRR8spu0WVClbihKJHiC9mdTIGmuPfIFCkeJyQVjhc=
 			</data>
 		</dict>
 		<key>Headers/KVAUSPrivacyStringValue.h</key>
