@@ -17,10 +17,12 @@
 
 
 
+#pragma mark System
 #if TARGET_OS_TV
 #import <JavaScriptCore/JavaScriptCore.h>
 #endif
 
+#pragma mark KochavaCore
 #ifdef KOCHAVA_FRAMEWORK
 #import <KochavaCore/KochavaCore.h>
 #else
@@ -28,6 +30,13 @@
 #import "KVAConfigureWithObjectProtocol.h"
 #import "KVAFromObjectProtocol.h"
 #import "KVASharedPropertyProvider.h"
+#endif
+
+#pragma mark KochavaConsent
+#ifdef KOCHAVA_FRAMEWORK
+#import <KochavaConsent/KochavaConsent.h>
+#else
+#import "KVAConsentAuditEntry.h"  // For KVAConsentAuditEntryAdderProvider.
 #endif
 
 
@@ -189,14 +198,6 @@
 
 
 #pragma mark - feature Audit
-
-
-
-#ifdef KOCHAVA_FRAMEWORK
-#import <KochavaConsent/KVAConsentAuditEntry.h>
-#else
-#import "KVAConsentAuditEntry.h"  // for KVAConsentAuditEntryAdderProvider.
-#endif
 
 
 

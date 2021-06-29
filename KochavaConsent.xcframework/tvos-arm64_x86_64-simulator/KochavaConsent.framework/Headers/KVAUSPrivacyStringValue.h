@@ -17,12 +17,15 @@
 
 
 
-#ifdef KOCHAVA_FRAMEWORK
-#import <KochavaCore/KochavaCore.h>
-#else
+#pragma mark System
 #if TARGET_OS_TV
 #import <JavaScriptCore/JavaScriptCore.h>
 #endif
+
+#pragma mark KochavaCore
+#ifdef KOCHAVA_FRAMEWORK
+#import <KochavaCore/KochavaCore.h>
+#else
 #import "KVAFromObjectProtocol.h"
 #endif
 

@@ -6,11 +6,11 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		JURKmcElYrFhITenUhDYsUkJ54s=
+		TsHRdITmwZNKWHXef46aDG/Uivo=
 		</data>
 		<key>Resources/KVAConsentDialogViewController.nib</key>
 		<data>
-		vphzacE502p3EJOXGu7gSOstaok=
+		CIhsRhe9XD5Jpj6De2eauUz4ro8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -19,56 +19,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TGldcOc0tGktj8Q6+Kbv+a7IhIit+dCd//UscOh3Uvs=
+			fuhtoXzc/6/vQvN3yo9D+w9Q7MJ+o60pETtZS9kk1nA=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentClient.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZbpAyO+RO9h/416CjP1ghjiU5v7gAzZFmT3TFOD23xM=
+			5RMBXnNSzyeooew6ovEmqUHujtI6alUG9tFx0iqgptc=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentConfiguration.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9IqC2VlktbuShedpnayx7KJ+vXpdN/tTe/FBXW1TAsg=
+			uRe6nCHOsm2M46lsDLCYvybIuRSBph0+h0oPlPQb37s=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentDialogNavigationController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bPYh9xWTCeU7YlVLmdpq2FpVn27zb2J6nSO5ZsUHFmU=
+			XGvNzSIGZiy4Mk5XtCZ2Ir+OBoy0BHfFeNbbjPu0cAA=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentProduct.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vvgBmfjs3r10T401ncYoJlThfPUBbwqnJiEXd+oBYog=
+			P4NqJEweZSdGKOFumNGp61kwF+38pfL95eLj1jBboTY=
 			</data>
 		</dict>
 		<key>Headers/KVAUSPrivacy.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8iRR8spu0WVClbihKJHiC9mdTIGmuPfIFCkeJyQVjhc=
+			yqiI0ebLFIY1G557G6ELgl2qzHO7viilDA6cnqELaBw=
 			</data>
 		</dict>
 		<key>Headers/KVAUSPrivacyStringValue.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h69a9R348YkcJB2Ed/tajRkb74hTYL9TZSEAwCNo3zI=
+			aCPmnVTbQSG7sfl+cYP+l1h3mskBGfMbfIHLdhCxNcA=
 			</data>
 		</dict>
 		<key>Headers/KochavaConsent.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ESVzvE9JGfX61e2UpizuGAzFhgfkuubH08j5v3VxNxo=
+			xQrTCtjwOC2f7DdxizRoKcDle5kT8BNQBpxToRcHUI0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FqvuhJclu2YOy3IF9TJp//BtKyoOB401jQOX8kunOdE=
+			rgunGVXQHo+2i/fLDxs4XfuBO5fbGri/nn39T4yUfo4=
 			</data>
 		</dict>
 		<key>Resources/KVAConsentDialogViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gwfI3Sbyv4FC3mE1yEl85/yTZdfXM93HGDWs6t82Jm0=
+			6+95HzfTQsn55+67ko7HmG4aDYD7t3Uy7s315Afu5NY=
 			</data>
 		</dict>
 	</dict>
