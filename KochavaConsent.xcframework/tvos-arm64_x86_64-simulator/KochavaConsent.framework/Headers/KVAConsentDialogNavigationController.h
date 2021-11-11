@@ -47,7 +47,7 @@
 /*!
  @typedef KVAConsentDialogNavigationControllerDidCompleteBlock
  
- @brief A block which is called when the navigation controller's lifecycle did complete.
+ @brief A closure which is called when the navigation controller's lifecycle did complete.
  
  @discussion Set this value to dismiss the view controller.
  */
@@ -61,7 +61,7 @@ typedef void (^ KVAConsentDialogNavigationControllerDidCompleteBlock)
 /*!
  @typedef KVAConsentDialogNavigationControllerDidRequestToOpenURLBlock
  
- @brief A block which is called when an event occurs which requests to open a url.
+ @brief A closure which is called when an event occurs which requests to open a url.
  
  @discussion Set this value to open the specified url.
  */
@@ -94,7 +94,7 @@ typedef void (^ KVAConsentDialogNavigationControllerDidRequestToOpenURLBlock)
  
  @brief Constructs an returns an instance of KVAConsentDialogNavigationController.
  
- @param didRequestToOpenURLBlock A block which is called when an event occurs which requests to open a url.  Set this value to open the specified url.
+ @param didRequestToOpenURLBlock A closure which is called when an event occurs which requests to open a url.  Set this value to open the specified url.
  
  @param didCompleteBlock A block which is called when the navigation controller's lifecycle did complete.  Set this value to dismiss the view controller.
  */

@@ -10,15 +10,15 @@
 		</data>
 		<key>Headers/KVAConsentClient.h</key>
 		<data>
-		4FMKeXMDQb6mEJuR5fO++LZ9Iro=
+		fGQWr5vkrqahlS5rf1j4GyHh21E=
 		</data>
 		<key>Headers/KVAConsentConfiguration.h</key>
 		<data>
-		pv9Jc6sQ055x1L5hJV4UMJ48fpk=
+		1mrRQUIeywSV4lU2hP0pFjMpVDY=
 		</data>
 		<key>Headers/KVAConsentDialogNavigationController.h</key>
 		<data>
-		ei469D0TGSHtOFQUZQQR2x3UsGs=
+		TM2IyN/oRZnay3nIHgIhkaMT614=
 		</data>
 		<key>Headers/KVAConsentProduct.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		clOq780PyiWABwzIuoGr93/pUG4=
+		TA9H+nTZkukvbEcXh3Ja+jFqm7E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -62,33 +62,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4FMKeXMDQb6mEJuR5fO++LZ9Iro=
+			fGQWr5vkrqahlS5rf1j4GyHh21E=
 			</data>
 			<key>hash2</key>
 			<data>
-			jsaPivIUv0CARHTKDmoO5TIcNXUDojP9qiF/l6Ex6K0=
+			tLrgQArnSMuFbDqZLy5L67fsDLOn79c6C7Oo5Swphp0=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentConfiguration.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pv9Jc6sQ055x1L5hJV4UMJ48fpk=
+			1mrRQUIeywSV4lU2hP0pFjMpVDY=
 			</data>
 			<key>hash2</key>
 			<data>
-			/8GVeaUbrRqojqUBKNWTm3uiB599wLpr0jyx2xJ0o7c=
+			pk5rQO0npr6w2/srAFeIPfSz9qQlH5MFjvba2IVVybU=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentDialogNavigationController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ei469D0TGSHtOFQUZQQR2x3UsGs=
+			TM2IyN/oRZnay3nIHgIhkaMT614=
 			</data>
 			<key>hash2</key>
 			<data>
-			WN9OP0ygUCAwXxY0GoGTmbisv+V/DYYOojWHUYnROYo=
+			v1TVjhbXHNofIum1l5hbnWOcYIVc3C9bFW6Nm/p0Plk=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentProduct.h</key>

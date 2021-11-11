@@ -63,7 +63,7 @@
  
  @brief A boolean indicating whether or not at least one configuration has completed and the configuration object is ready for use.
  
- @discussion This might be checked instead of waiting for the optional block to be called.
+ @discussion This might be checked instead of waiting for the optional closure to be called.
  */
 @property (readonly) BOOL readyBool;
 

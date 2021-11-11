@@ -244,13 +244,13 @@
 
 
 /*!
- @typedef KVAConsentConfigurationDidReceiveBlock
+ @typedef KVAConsentConfigurationDidReceiveClosure
  
- @brief A block which is called when there is an update to consent.
+ @brief A closure which is called when there is an update to consent.
  
  @discussion This can be used to prompt the user for consent and to enable and/or disable functionality.  Updates include, but are not limited to, when the user travels into or out of an area requiring consent, when new partners are added, and when conditions indicate a need to retry prompting the user.
  */
-typedef void (^ KVAConsentConfigurationDidReceiveBlock)
+typedef void (^ KVAConsentConfigurationDidReceiveClosure)
 (
     KVAConsentConfiguration * _Nonnull configuration
 );
@@ -260,7 +260,7 @@ typedef void (^ KVAConsentConfigurationDidReceiveBlock)
 #if TARGET_OS_TV
 @protocol KVAConsentClientConfigurationJSExport <JSExport>
 @property (strong, nonatomic, nonnull, readonly) KVAConsentConfiguration *configuration;
-@property (strong, nonatomic, nullable, readwrite) KVAConsentConfigurationDidReceiveBlock didReceiveConfigurationBlock;
+@property (strong, nonatomic, nullable, readwrite) KVAConsentConfigurationDidReceiveClosure didReceiveConfigurationBlock;
 @end
 #endif
 
@@ -286,11 +286,11 @@ typedef void (^ KVAConsentConfigurationDidReceiveBlock)
 /*!
  @property didReceiveConfigurationBlock
  
- @brief A block which is called when there is an update to the configuration.
+ @brief A closure which is called when there is an update to the configuration.
  
  @discussion This can be used to prompt the user for consent and to enable and/or disable functionality.
  */
-@property (strong, nonatomic, nullable, readwrite) KVAConsentConfigurationDidReceiveBlock didReceiveConfigurationBlock;
+@property (strong, nonatomic, nullable, readwrite) KVAConsentConfigurationDidReceiveClosure didReceiveConfigurationBlock;
 
 
 
