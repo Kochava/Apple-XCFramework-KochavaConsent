@@ -4,3 +4,8 @@ framework module KochavaConsent {
   export *
   module * { export * }
 }
+
+module KochavaConsent.Swift {
+    header "KochavaConsent-Swift.h"
+    requires objc
+}

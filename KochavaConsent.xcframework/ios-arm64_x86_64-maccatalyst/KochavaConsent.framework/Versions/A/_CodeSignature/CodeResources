@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		+LDufYg6SzUJ8JjSwNbJFc8GJ44=
+		WDr++oNBL+pxkXFSqM/M+7TiLsk=
 		</data>
 		<key>Resources/KVAConsentDialogViewController.nib</key>
 		<data>
@@ -15,74 +15,88 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/KVAConsentAuditEntry.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+UK83yhPKDg5cHT24i3LsAqAXT6ti5Zx4e1QukNRRLI=
-			</data>
-		</dict>
 		<key>Headers/KVAConsentClient.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x7zgX7MNqcmDRSufFuEZmjhACu6KfVfaMzkLJXidyWA=
-			</data>
-		</dict>
-		<key>Headers/KVAConsentConfiguration.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ExqiombxyAA1wHohW7r0REfUxgxyqcsJBKja1ttNvmE=
+			w4MR8zzR+XJpjxOwLIXNiYZ4ZU/nzWQMmt40G93zeq8=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentDialogNavigationController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2EHNEgL196ZwMmCKi7/ciakVobH5cg+dtAx+dhCcuk8=
+			XPUIVYrs5YzFMu73w1FAs/yx9JnUWTUoOiV90EzrJmg=
 			</data>
 		</dict>
-		<key>Headers/KVAConsentProduct.h</key>
+		<key>Headers/KochavaConsent-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			81aKFuCIVrA9TQBWScBF7WxYcLg2JBhzBer95ghOtdA=
-			</data>
-		</dict>
-		<key>Headers/KVAUSPrivacy.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IJ7Zfcw8whMkX2LgsqAkNsxdknBsomWrICznAWArGtM=
-			</data>
-		</dict>
-		<key>Headers/KVAUSPrivacyStringValue.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8wzfjvl+7HNkgUMnSSSbVXkNow6oY/B+UY21Ybcx9XM=
+			YHXvB6l4KQ4Ih29VAOKYId5js+Czm6UGeT4+HdESqoA=
 			</data>
 		</dict>
 		<key>Headers/KochavaConsent.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y9VjvT6pj1tT8GnBaKTMguF515zyGKvMjZ3cyBluDwA=
+			NfuGxoOejopw3IylNQcr7YaGuo+vGLbvryE6UPC7Bsc=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XHXKuH4N2TVIjRHLarIdgbnuDfd68Zs8tIdYqhAF4yc=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Afce4bGzBM6pd8cYsyyrvu2+CaKmEW7dGSRJXdSM06A=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-ios-macabi.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Fv1AsIZ/yxI025r2VcZSyW6u5zG6rcxbDXLWRn1Kri8=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+tivW5GkA90ce/+YN2BpC+nQc8Gurd5mCpKzsG4bw1o=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Gz4zjMy707dpDmSNNHzRyRN8iKe3zFG3Rh3E6d7j92c=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-ios-macabi.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JpBuvvutqc0K6cLoezW20S+4OWodvVxYBQAs2rwRNGo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g8insA8eO/mcffEcucLEElGUhVoAIPIlJygOvaUO5eY=
+			hGblin8GQBl5Rn9ziN8kWPr6QBL1qE9UmShSaR3nPsY=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MuV9wg5apeM//AcAgWvrriCWETNkEDfEIbeKYmxg+AI=
+			X7Zis6frREpR62ret34PtB9sd+Wm0sgWPA2EIULnbkI=
 			</data>
 		</dict>
 		<key>Resources/KVAConsentDialogViewController.nib</key>

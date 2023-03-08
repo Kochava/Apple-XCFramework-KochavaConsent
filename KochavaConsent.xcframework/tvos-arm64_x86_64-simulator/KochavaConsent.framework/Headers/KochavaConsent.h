@@ -38,15 +38,10 @@
 #import <KochavaUI/KochavaUI.h>
 
 #pragma mark KochavaConsent
-#import <KochavaConsent/KVAConsentAuditEntry.h>
 #import <KochavaConsent/KVAConsentClient.h>
-#import <KochavaConsent/KVAConsentConfiguration.h>
 #if !TARGET_OS_WATCH
 #import <KochavaConsent/KVAConsentDialogNavigationController.h>
 #endif
-#import <KochavaConsent/KVAConsentProduct.h>
-#import <KochavaConsent/KVAUSPrivacy.h>
-#import <KochavaConsent/KVAUSPrivacyStringValue.h>
 
 
 

@@ -4,146 +4,176 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Headers/KVAConsentAuditEntry.h</key>
-		<data>
-		BQVB2BGPcHoN0b+aeG9KvuTz9qc=
-		</data>
 		<key>Headers/KVAConsentClient.h</key>
 		<data>
-		KgcOzs72tGvlUupcM7YRiAoEtHE=
-		</data>
-		<key>Headers/KVAConsentConfiguration.h</key>
-		<data>
-		LCNI9ihiJle+oXilMeLU4Xq/Ko8=
+		t3aW3aO2MzkH5voGXOB0jWdkJFM=
 		</data>
 		<key>Headers/KVAConsentDialogNavigationController.h</key>
 		<data>
-		TeX3bxqr6z6/0iTuwsXTopBDCn0=
+		Qf3oISbY2ncvTAXIlb5I6wn2Hio=
 		</data>
-		<key>Headers/KVAConsentProduct.h</key>
+		<key>Headers/KochavaConsent-Swift.h</key>
 		<data>
-		knH43jhD/M3zbVgZgX1Ezk+PX3A=
-		</data>
-		<key>Headers/KVAUSPrivacy.h</key>
-		<data>
-		G3j1ob25Mqm54XBaC3RGuryHKDE=
-		</data>
-		<key>Headers/KVAUSPrivacyStringValue.h</key>
-		<data>
-		p5NQSpMnG6zwqLbBBZOrvOWx8OY=
+		49fwWv86zgDh9ty+dL0MpkflS7U=
 		</data>
 		<key>Headers/KochavaConsent.h</key>
 		<data>
-		kklVWwBGbGoHP1LL0qlhhLjTDPg=
+		rHMdEiL4JwOOdb0g4pnOewjEz+c=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8Jo1BX0VOyRf2fdlxL2JzanOPJo=
+		IVrzyGMv3XXs+mt+F+1TEzAWdbk=
+		</data>
+		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
+		<data>
+		h14AO/1BTad4sgv9/tYHhEkCnYc=
+		</data>
+		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
+		<data>
+		k/HDQWOZ5gusRbUf5YfyCcgwiT8=
+		</data>
+		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
+		<data>
+		iURavgnl9hJIh+CqJMZJVu/W5oo=
+		</data>
+		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
+		<data>
+		EZEYxRp8ZUfGembwPRBjo0sMgBE=
+		</data>
+		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
+		<data>
+		R/xLQdWUD9cSGYS2AnGHloOVSVw=
+		</data>
+		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
+		<data>
+		T0Wv4TqBjlJyJKiyCTIm+Tq9Mcs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		RAv3zO6oIfXUpFiS+MuN9LjaleE=
+		cgJiofe4WxR/Di47tcBGkxSNoZM=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/KVAConsentAuditEntry.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BQVB2BGPcHoN0b+aeG9KvuTz9qc=
-			</data>
-			<key>hash2</key>
-			<data>
-			+UK83yhPKDg5cHT24i3LsAqAXT6ti5Zx4e1QukNRRLI=
-			</data>
-		</dict>
 		<key>Headers/KVAConsentClient.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KgcOzs72tGvlUupcM7YRiAoEtHE=
+			t3aW3aO2MzkH5voGXOB0jWdkJFM=
 			</data>
 			<key>hash2</key>
 			<data>
-			x7zgX7MNqcmDRSufFuEZmjhACu6KfVfaMzkLJXidyWA=
-			</data>
-		</dict>
-		<key>Headers/KVAConsentConfiguration.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LCNI9ihiJle+oXilMeLU4Xq/Ko8=
-			</data>
-			<key>hash2</key>
-			<data>
-			ExqiombxyAA1wHohW7r0REfUxgxyqcsJBKja1ttNvmE=
+			w4MR8zzR+XJpjxOwLIXNiYZ4ZU/nzWQMmt40G93zeq8=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentDialogNavigationController.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TeX3bxqr6z6/0iTuwsXTopBDCn0=
+			Qf3oISbY2ncvTAXIlb5I6wn2Hio=
 			</data>
 			<key>hash2</key>
 			<data>
-			2EHNEgL196ZwMmCKi7/ciakVobH5cg+dtAx+dhCcuk8=
+			XPUIVYrs5YzFMu73w1FAs/yx9JnUWTUoOiV90EzrJmg=
 			</data>
 		</dict>
-		<key>Headers/KVAConsentProduct.h</key>
+		<key>Headers/KochavaConsent-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			knH43jhD/M3zbVgZgX1Ezk+PX3A=
+			49fwWv86zgDh9ty+dL0MpkflS7U=
 			</data>
 			<key>hash2</key>
 			<data>
-			81aKFuCIVrA9TQBWScBF7WxYcLg2JBhzBer95ghOtdA=
-			</data>
-		</dict>
-		<key>Headers/KVAUSPrivacy.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			G3j1ob25Mqm54XBaC3RGuryHKDE=
-			</data>
-			<key>hash2</key>
-			<data>
-			IJ7Zfcw8whMkX2LgsqAkNsxdknBsomWrICznAWArGtM=
-			</data>
-		</dict>
-		<key>Headers/KVAUSPrivacyStringValue.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			p5NQSpMnG6zwqLbBBZOrvOWx8OY=
-			</data>
-			<key>hash2</key>
-			<data>
-			8wzfjvl+7HNkgUMnSSSbVXkNow6oY/B+UY21Ybcx9XM=
+			YHXvB6l4KQ4Ih29VAOKYId5js+Czm6UGeT4+HdESqoA=
 			</data>
 		</dict>
 		<key>Headers/KochavaConsent.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kklVWwBGbGoHP1LL0qlhhLjTDPg=
+			rHMdEiL4JwOOdb0g4pnOewjEz+c=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y9VjvT6pj1tT8GnBaKTMguF515zyGKvMjZ3cyBluDwA=
+			NfuGxoOejopw3IylNQcr7YaGuo+vGLbvryE6UPC7Bsc=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			h14AO/1BTad4sgv9/tYHhEkCnYc=
+			</data>
+			<key>hash2</key>
+			<data>
+			aWEfmYxMqc9rwOfsIjcscdmSgiFWcZ/7RZ7L3agNMUw=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k/HDQWOZ5gusRbUf5YfyCcgwiT8=
+			</data>
+			<key>hash2</key>
+			<data>
+			Y9MxgpW7xwSs6bnleHDwltwmfqB78JOs3eBZv8d0Vqw=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iURavgnl9hJIh+CqJMZJVu/W5oo=
+			</data>
+			<key>hash2</key>
+			<data>
+			Qo3NkXp3iRxNgLXR92lOwwDofv7gnCM2Qy8AVZUEJos=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EZEYxRp8ZUfGembwPRBjo0sMgBE=
+			</data>
+			<key>hash2</key>
+			<data>
+			z461JlRV3IQjhKLAYi8a5wV8d5jcI3At6T8KPt0vm54=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			R/xLQdWUD9cSGYS2AnGHloOVSVw=
+			</data>
+			<key>hash2</key>
+			<data>
+			/pi+HfklOLAzN4/ebPNG2Dh4ohlL9rSkor1ql/Z2fUQ=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			T0Wv4TqBjlJyJKiyCTIm+Tq9Mcs=
+			</data>
+			<key>hash2</key>
+			<data>
+			8TYZevGo63Oa3bBQsPPnCY5jxanprS5m9ghZs0W7pxk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RAv3zO6oIfXUpFiS+MuN9LjaleE=
+			cgJiofe4WxR/Di47tcBGkxSNoZM=
 			</data>
 			<key>hash2</key>
 			<data>
-			g8insA8eO/mcffEcucLEElGUhVoAIPIlJygOvaUO5eY=
+			hGblin8GQBl5Rn9ziN8kWPr6QBL1qE9UmShSaR3nPsY=
 			</data>
 		</dict>
 	</dict>

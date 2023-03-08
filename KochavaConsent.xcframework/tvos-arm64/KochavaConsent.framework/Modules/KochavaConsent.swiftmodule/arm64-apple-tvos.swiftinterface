@@ -1,0 +1,216 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target arm64-apple-tvos10.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KochavaConsent
+import Foundation
+import JavaScriptCore
+@_exported import KochavaConsent
+import KochavaCore
+import KochavaUI
+import Swift
+import UIKit
+import _Concurrency
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(KVAConsentAudit) final public class KVAConsentAudit : ObjectiveC.NSObject, KochavaCore.KVAAsForContextProtocol, KochavaCore.KVAConfigureWithProtocol, KochavaConsent.KVAConsentAuditEntryAdder, KochavaConsent.KVAConsentAuditEntryAdderProvider, KochavaCore.KVAFromProtocol, KochavaCore.KVAInvalidatable, KochavaCore.KVAKeyable, KochavaCore.KVAMutable, KochavaCore.KVAStartable {
+  @objc deinit
+  public static func kva_from(_ object: Any?) -> Self?
+  public static func kva_from(_ object: Any?, initializedObject: Any?) -> Self?
+  final public func kva_as(forContext context: KochavaCore.KVAContext?) -> Swift.AnyObject?
+  final public func key(forContext context: KochavaCore.KVAContext?) -> Swift.AnyHashable?
+  final public func kva_configure(with object: Any?, context: KochavaCore.KVAContext?)
+  final public func start()
+  @objc final public func addEntry(_ entry: KochavaConsent.KVAConsentAuditEntry)
+  @objc override final public func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
+  final public func invalidate()
+  final public var mutator: KochavaCore.KVAMutator {
+    get
+  }
+  @objc final public var auditEntryAdder: KochavaConsent.KVAConsentAuditEntryAdder {
+    @objc get
+  }
+}
+@_hasMissingDesignatedInitializers @objc(KVAConsentAuditEntry) final public class KVAConsentAuditEntry : ObjectiveC.NSObject, KochavaCore.KVAAsForContextProtocol, KochavaCore.KVAFromProtocol {
+  @objc(addWithTextString:) public static func add(withTextString textString: Swift.String)
+  public static func kva_from(_ object: Any?) -> Self?
+  final public func kva_as(forContext context: KochavaCore.KVAContext?) -> Swift.AnyObject?
+  final public var mutator: KochavaCore.KVAMutator {
+    get
+  }
+  @objc deinit
+}
+@objc public protocol KVAConsentAuditEntryAdder {
+  @objc func addEntry(_ entry: KochavaConsent.KVAConsentAuditEntry)
+}
+@objc public protocol KVAConsentAuditEntryAdderProvider {
+  @objc var auditEntryAdder: KochavaConsent.KVAConsentAuditEntryAdder { get }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(KVAConsentClient) final public class KVAConsentClient : ObjectiveC.NSObject, KochavaCore.KVAAsForContextProtocol, KochavaCore.KVAConfigureWithProtocol, KochavaConsent.KVAConsentAuditEntryAdderProvider, KochavaCore.KVAFromProtocol, KochavaCore.KVAFromWithInitializedObjectProtocol, KochavaCore.KVAInvalidatable, KochavaCore.KVAInvalidatableWithOptions, KochavaCore.KVAMutable, KochavaCore.KVASharedPropertyProvider {
+  @objc public static var shared: KochavaConsent.KVAConsentClient {
+    @objc get
+  }
+  @objc public static var shared_optional: KochavaConsent.KVAConsentClient? {
+    @objc get
+  }
+  @objc public static var sharedInstance: Swift.AnyObject {
+    @objc get
+  }
+  @objc override convenience dynamic public init()
+  @objc(initWithStorageIdString:) required public init(storageIdString: Swift.String?)
+  @objc deinit
+  public static func kva_from(_ object: Any?) -> Self?
+  public static func kva_from(_ object: Any?, initializedObject: Any?) -> Self?
+  final public func kva_as(forContext context: KochavaCore.KVAContext?) -> Swift.AnyObject?
+  @objc(configureWith:context:) final public func configure(with object: Any?, context: KochavaCore.KVAContext?)
+  @objc final public func kva_configure(with object: Any?, context: KochavaCore.KVAContext?)
+  @objc(registerIdentityWithNameString:valueString:) final public func registerIdentity(withNameString nameString: Swift.String, valueString: Swift.String)
+  @objc(unregisterIdentityWithNameString:) final public func unregisterIdentity(withNameString nameString: Swift.String)
+  @objc final public func start()
+  @objc override final public var description: Swift.String {
+    @objc get
+  }
+  @objc final public func invalidate()
+  @objc final public func invalidate(asyncBool: Swift.Bool, printLogMessageBool: Swift.Bool)
+  @objc final public var audit: KochavaConsent.KVAConsentAudit {
+    @objc get
+  }
+  @objc final public var config: KochavaConsent.KVAConsentConfig {
+    @objc get
+  }
+  @objc final public var configuration: KochavaConsent.KVAConsentConfiguration {
+    @objc get
+  }
+  @objc final public var general: KochavaConsent.KVAConsentGeneral {
+    @objc get
+  }
+  @objc final public var networking: KochavaCore.KVANetworking {
+    @objc get
+  }
+  @objc final public var usPrivacy: KochavaConsent.KVAUSPrivacy {
+    @objc get
+  }
+  @objc final public var auditEntryAdder: KochavaConsent.KVAConsentAuditEntryAdder {
+    @objc get
+  }
+  final public var mutator: KochavaCore.KVAMutator {
+    get
+  }
+  @objc public static var sharedStorageIdString: Swift.String? {
+    @objc get
+    @objc set(sharedStorageIdString)
+  }
+  @objc final public var didReceiveConfigurationBlock: KochavaConsent.KVAConsentClient.Closure_Configuration_DidReceive? {
+    @objc get
+    @objc set(didReceiveConfigurationBlock)
+  }
+  public typealias Closure_Configuration_DidReceive = (_ configuration: KochavaConsent.KVAConsentConfiguration) -> Swift.Void
+  @objc final public var startedBool: Swift.Bool {
+    @objc get
+  }
+  public static let willDeallocNotificationName: Foundation.Notification.Name
+}
+extension KochavaConsent.KVAConsentClient : JavaScriptCore.JSExport {
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(KVAConsentConfig) final public class KVAConsentConfig : ObjectiveC.NSObject, KochavaCore.KVAAsForContextProtocol, KochavaCore.KVAConfigureWithProtocol, KochavaCore.KVAFromProtocol, KochavaCore.KVAFromWithInitializedObjectProtocol, KochavaCore.KVAInvalidatable, KochavaCore.KVAKeyable, KochavaCore.KVAMutable, KochavaCore.KVAStartable {
+  public static func kva_from(_ object: Any?) -> Self?
+  public static func kva_from(_ object: Any?, initializedObject: Any?) -> Self?
+  final public func kva_as(forContext context: KochavaCore.KVAContext?) -> Swift.AnyObject?
+  final public func key(forContext context: KochavaCore.KVAContext?) -> Swift.AnyHashable?
+  final public func kva_configure(with object: Any?, context: KochavaCore.KVAContext?)
+  final public func start()
+  final public func invalidate()
+  final public var mutator: KochavaCore.KVAMutator {
+    get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(KVAConsentConfiguration) final public class KVAConsentConfiguration : ObjectiveC.NSObject, Foundation.NSCopying, KochavaCore.KVAAsForContextProtocol, KochavaCore.KVAConfigureWithProtocol, KochavaCore.KVAFromProtocol, KochavaCore.KVAKeyable, KochavaCore.KVAMutable {
+  @objc final public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  public static func kva_from(_ object: Any?) -> Self?
+  public static func kva_from(_ object: Any?, initializedObject: Any?) -> Self?
+  final public func kva_as(forContext context: KochavaCore.KVAContext?) -> Swift.AnyObject?
+  final public func key(forContext context: KochavaCore.KVAContext?) -> Swift.AnyHashable?
+  final public func kva_configure(with object: Any?, context: KochavaCore.KVAContext?)
+  @objc(modePresentWithNameString:) final public func modePresent(withNameString nameString: Swift.String) -> Swift.Bool
+  final public var mutator: KochavaCore.KVAMutator {
+    get
+  }
+  @objc final public var hostDictionary: [Swift.AnyHashable : Any] {
+    get
+  }
+  @objc final public var modeStringArray: [Swift.String] {
+    get
+  }
+  @objc(readyBool) final public var readyBool: Swift.Bool {
+    @objc get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(KVAConsentDialogNavigationController) @_Concurrency.MainActor(unsafe) final public class KVAConsentDialogNavigationController : UIKit.UINavigationController {
+  @objc @_Concurrency.MainActor(unsafe) convenience public init?(didRequestToOpenURLBlock: @escaping KochavaConsent.KVAConsentDialogNavigationController.KVAConsentDialogNavigationControllerDidRequestToOpenURLBlock, didCompleteBlock: @escaping KochavaConsent.KVAConsentDialogNavigationController.KVAConsentDialogNavigationControllerDidCompleteBlock)
+  @objc(consentDialogNavigationControllerWithDidRequestToOpenURLBlock:didCompleteBlock:) @_Concurrency.MainActor(unsafe) public static func consentDialogNavigationController(didRequestToOpenURLBlock: @escaping KochavaConsent.KVAConsentDialogNavigationController.KVAConsentDialogNavigationControllerDidRequestToOpenURLBlock, didCompleteBlock: @escaping KochavaConsent.KVAConsentDialogNavigationController.KVAConsentDialogNavigationControllerDidCompleteBlock) -> Self?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  public typealias KVAConsentDialogNavigationControllerDidCompleteBlock = (_ consentDialogNavigationController: KochavaConsent.KVAConsentDialogNavigationController) -> Swift.Void
+  public typealias KVAConsentDialogNavigationControllerDidRequestToOpenURLBlock = (_ consentDialogNavigationController: KochavaConsent.KVAConsentDialogNavigationController, _ url: Foundation.URL) -> Swift.Void
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(KVAConsentGeneral) final public class KVAConsentGeneral : ObjectiveC.NSObject, KochavaCore.KVAAsForContextProtocol, KochavaCore.KVAConfigureWithProtocol, KochavaCore.KVAFromProtocol, KochavaCore.KVAFromWithInitializedObjectProtocol, KochavaCore.KVAInvalidatable, KochavaCore.KVAKeyable, KochavaCore.KVAMutable, KochavaCore.KVAStartable {
+  @objc deinit
+  public static func kva_from(_ object: Any?) -> Self?
+  public static func kva_from(_ object: Any?, initializedObject: Any?) -> Self?
+  final public func kva_as(forContext context: KochavaCore.KVAContext?) -> Swift.AnyObject?
+  final public func key(forContext context: KochavaCore.KVAContext?) -> Swift.AnyHashable?
+  final public func kva_configure(with object: Any?, context: KochavaCore.KVAContext?)
+  @objc(registerIdentityWithNameString:valueString:) final public func registerIdentity(withNameString nameString: Swift.String, valueString: Swift.String)
+  @objc(unregisterIdentityWithNameString:) final public func unregisterIdentity(withNameString nameString: Swift.String)
+  final public func start()
+  final public func invalidate()
+  final public var mutator: KochavaCore.KVAMutator {
+    get
+  }
+  final public let instanceCreatedDate: Foundation.Date
+  public static let startSequenceDidCompleteNotificationName: Foundation.Notification.Name
+}
+@_inheritsConvenienceInitializers @objc(KVAConsentProduct) final public class KVAConsentProduct : ObjectiveC.NSObject, KochavaCore.KVASharedPropertyProvider {
+  @objc public static let shared: KochavaCore.KVAProduct
+  public static var sharedInstance: Swift.AnyObject {
+    get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc(KVAUSPrivacy) final public class KVAUSPrivacy : ObjectiveC.NSObject, KochavaCore.KVAAsForContextProtocol, KochavaCore.KVAConfigureWithProtocol, KochavaCore.KVAFromProtocol, KochavaCore.KVAKeyable, KochavaCore.KVAMutable {
+  public static func kva_from(_ object: Any?) -> Self?
+  public static func kva_from(_ object: Any?, initializedObject: Any?) -> Self?
+  final public func kva_as(forContext context: KochavaCore.KVAContext?) -> Swift.AnyObject?
+  final public func key(forContext context: KochavaCore.KVAContext?) -> Swift.AnyHashable?
+  final public func kva_configure(with object: Any?, context: KochavaCore.KVAContext?)
+  final public var mutator: KochavaCore.KVAMutator {
+    get
+  }
+  @objc final public var coveredByLSPA: KochavaConsent.KVAUSPrivacyStringValue {
+    @objc get
+    @objc set(coveredByLSPA)
+  }
+  @objc final public var explicitNoticeGiven: KochavaConsent.KVAUSPrivacyStringValue {
+    @objc get
+    @objc set(coveredByLSPA)
+  }
+  @objc final public var userOptedOutOfSale: KochavaConsent.KVAUSPrivacyStringValue {
+    @objc get
+    @objc set(coveredByLSPA)
+  }
+  @objc final public var string: Swift.String? {
+    @objc get
+    @objc set(string)
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc(KVAUSPrivacyStringValue) final public class KVAUSPrivacyStringValue : ObjectiveC.NSObject, KochavaCore.KVAFromProtocol {
+  @objc public static let yes: KochavaConsent.KVAUSPrivacyStringValue
+  @objc public static let no: KochavaConsent.KVAUSPrivacyStringValue
+  @objc public static let notApplicable: KochavaConsent.KVAUSPrivacyStringValue
+  public static func kva_from(_ object: Any?) -> Self?
+  @objc final public let nameString: Swift.String
+  @objc final public let rawString: Swift.String
+  @objc deinit
+}
