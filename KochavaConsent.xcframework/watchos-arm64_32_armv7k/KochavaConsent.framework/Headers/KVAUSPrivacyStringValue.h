@@ -3,7 +3,7 @@
 //  KochavaConsent
 //
 //  Created by John Bushnell on 2/7/20.
-//  Copyright © 2020 - 2021 Kochava, Inc. All rights reserved.
+//  Copyright © 2020 - 2022 Kochava, Inc. All rights reserved.
 //
 
 
@@ -23,11 +23,7 @@
 #endif
 
 #pragma mark KochavaCore
-#ifdef KOCHAVA_FRAMEWORK
-#import <KochavaCore/KochavaCore.h>
-#else
-#import "KVAFromObjectProtocol.h"
-#endif
+@import KochavaCore;
 
 
 
@@ -64,12 +60,12 @@
 #if TARGET_OS_TV
 KVAUSPrivacyStringValueJSExport,
 #endif
-KVAFromObjectProtocol
+KVAFromProtocol
 >
 
 
 
-#pragma mark - ENUMERATED VALUES
+#pragma mark - Getting an Enumerated US Privacy String Value
 
 
 
@@ -100,7 +96,7 @@ KVAFromObjectProtocol
 
 
 
-#pragma mark - PARAMETERS
+#pragma mark - Parameters
 
 
 

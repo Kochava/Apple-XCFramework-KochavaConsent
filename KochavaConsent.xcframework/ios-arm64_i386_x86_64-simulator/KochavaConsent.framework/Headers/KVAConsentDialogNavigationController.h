@@ -3,7 +3,7 @@
 //  KochavaConsent
 //
 //  Created by John Bushnell on 2/18/20.
-//  Copyright © 2020 - 2021 Kochava, Inc. All rights reserved.
+//  Copyright © 2020 - 2022 Kochava, Inc. All rights reserved.
 //
 
 
@@ -40,7 +40,7 @@
 
 
 
-#pragma mark - TYPEDEF
+#pragma mark - Typealiases
 
 
 
@@ -73,7 +73,7 @@ typedef void (^ KVAConsentDialogNavigationControllerDidRequestToOpenURLBlock)
 
 
 
-#pragma mark - INTERFACE
+#pragma mark - Interface
 
 
 
@@ -85,14 +85,14 @@ typedef void (^ KVAConsentDialogNavigationControllerDidRequestToOpenURLBlock)
 
 
 
-#pragma mark - CONSTRUCTION
+#pragma mark - 🆕 Creating a Consent Dialog Navigation Controller
 
 
 
 /*!
  @method + consentDialogNavigationControllerWithDidRequestToOpenURLBlock:didCompleteBlock:
  
- @brief Constructs an returns an instance of KVAConsentDialogNavigationController.
+ @brief Create an instance of KVAConsentDialogNavigationController.
  
  @param didRequestToOpenURLBlock A closure which is called when an event occurs which requests to open a url.  Set this value to open the specified url.
  
@@ -108,7 +108,7 @@ typedef void (^ KVAConsentDialogNavigationControllerDidRequestToOpenURLBlock)
 /*!
  @method - initWithRootViewController:
  
- @brief Constructs an instance of KVAConsentDialogNavigationController.
+ @brief Create an instance of KVAConsentDialogNavigationController.
  */
 #if TARGET_OS_OSX
 - (nonnull instancetype)initWithRootViewController:(nonnull NSViewController *)rootViewController;
@@ -118,7 +118,7 @@ typedef void (^ KVAConsentDialogNavigationControllerDidRequestToOpenURLBlock)
 
 
 
-#pragma mark - PARAMETERS
+#pragma mark - Parameters
 
 
 

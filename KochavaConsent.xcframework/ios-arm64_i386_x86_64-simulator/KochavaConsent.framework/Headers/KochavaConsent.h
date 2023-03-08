@@ -3,7 +3,7 @@
 //  KochavaConsent
 //
 //  Created by John Bushnell on 6/12/20.
-//  Copyright © 2020 - 2021 Kochava, Inc.  All rights reserved.
+//  Copyright © 2020 - 2022 Kochava, Inc.  All rights reserved.
 //
 
 
@@ -32,7 +32,7 @@
 #endif
 
 #pragma mark KochavaCore
-#import <KochavaCore/KochavaCore.h>
+@import KochavaCore;
 
 #pragma mark KochavaUI
 #import <KochavaUI/KochavaUI.h>

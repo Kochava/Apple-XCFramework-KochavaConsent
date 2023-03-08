@@ -3,7 +3,7 @@
 //  KochavaConsent
 //
 //  Created by John Bushnell on 12/11/19.
-//  Copyright © 2020 - 2021 Kochava, Inc.  All rights reserved.
+//  Copyright © 2019 - 2022 Kochava, Inc.  All rights reserved.
 //
 
 
@@ -23,14 +23,7 @@
 #endif
 
 #pragma mark KochavaCore
-#ifdef KOCHAVA_FRAMEWORK
-#import <KochavaCore/KochavaCore.h>
-#else
-#import "KVAAsForContextObjectProtocol.h"
-#import "KVAConfigureWithObjectProtocol.h"
-#import "KVAFromObjectProtocol.h"
-#import "KVASharedPropertyProvider.h"
-#endif
+@import KochavaCore;
 
 #pragma mark KochavaConsent
 #ifdef KOCHAVA_FRAMEWORK
@@ -66,11 +59,7 @@
  
  You do not create instances of the KVAConsentClient class.  Instead, you start a provided shared instance using the designated configuration instance method start(withParametersDictionary:delegate:).
  
- From there, the consentClient proceeds to initialize immediately and perform its various tasks.  This is typically done during the earliest phases of the host’s life-cycle, so that installation attribution can be quickly established and post-install events may immediately begin to be queued.
- 
- @author Kochava, Inc.
- 
- @copyright 2020 - 2021 Kochava, Inc.
+ From there, the consentClient proceeds to initialize immediately and perform its various tasks.  This is typically done during the earliest phases of the host’s lifecycle, so that installation attribution can be quickly established and post-install events may immediately begin to be queued.
  */
 @interface KVAConsentClient : NSObject
 
@@ -102,9 +91,9 @@
 
 
 #if TARGET_OS_TV
-@interface KVAConsentClient (General_Public) <KVAAsForContextObjectProtocol, KVAConfigureWithObjectProtocol, KVAFromObjectProtocol, KVASharedPropertyProvider, KVAConsentClientGeneralJSExport>
+@interface KVAConsentClient (General_Public) <KVAAsForContextProtocol, KVAConfigureWithProtocol, KVAFromProtocol, KVASharedPropertyProvider, KVAConsentClientGeneralJSExport>
 #else
-@interface KVAConsentClient (General_Public) <KVAAsForContextObjectProtocol, KVAConfigureWithObjectProtocol, KVAFromObjectProtocol, KVASharedPropertyProvider>
+@interface KVAConsentClient (General_Public) <KVAAsForContextProtocol, KVAConfigureWithProtocol, KVAFromProtocol, KVASharedPropertyProvider>
 #endif
 
 
@@ -117,6 +106,11 @@
  @discussion This is the preferred way of using a consentClient.  To complete the integration you must call func start.
  */
 @property (class, readonly, strong, nonnull) KVAConsentClient *shared;
+
+
+
+// See var shared.
+@property (class, readonly, strong, nullable) KVAConsentClient *shared_optional;
 
 
 
@@ -164,7 +158,7 @@
  
  @discussion  By calling the KVAConsentClient start method, you have completed the basic integration with the KochavaConsent SDK.  The call to the configuration method should be located in the logic of your application where things first start up, such as your App Delegate's application:didFinishLaunchingWithOptions: method.
 
- Swift example:
+ Example:
  @code
  KVAConsentClient.shared.start()
  @endcode
@@ -193,7 +187,7 @@
  
  @param context The context.
  
- @discussion This method can be used to make special configurations to the instance.  This method is equivalent to the support provided by KVAConfigureWithObjectProtocol;  however, it is formalized with a dispatch to the Kochava SDK's globalSerial queue and a log message.
+ @discussion This method can be used to make special configurations to the instance.  This method is equivalent to the support provided by KVAConfigureWithProtocol;  however, it is formalized with a dispatch to the Kochava SDK's globalSerial queue and a log message.
  */
 - (void)configureWith:
     (nullable id)withObject
@@ -227,7 +221,7 @@
  
  @brief An instance of class KVAConsentAudit which conforms to protocol KVAConsentAuditEntryAdder.
  */
-@property (strong, nonatomic, nonnull, readonly) NSObject<KVAConsentAuditEntryAdder> *audit;
+@property (strong, nonatomic, nonnull, readonly) id<KVAConsentAuditEntryAdder> audit;
 
 
 
@@ -291,6 +285,43 @@ typedef void (^ KVAConsentConfigurationDidReceiveClosure)
  @discussion This can be used to prompt the user for consent and to enable and/or disable functionality.
  */
 @property (strong, nonatomic, nullable, readwrite) KVAConsentConfigurationDidReceiveClosure didReceiveConfigurationBlock;
+
+
+
+@end
+
+
+
+#pragma mark - feature Networking
+
+
+
+@class KVANetworking;
+
+
+
+#if TARGET_OS_TV
+@protocol KVAConsentClientNetworkingJSExport <JSExport>
+@property (strong, nonatomic, nonnull, readonly) KVANetworking *networking;
+@end
+#endif
+
+
+
+#if TARGET_OS_TV
+@interface KVAConsentClient (Networking_Public) <KVAConsentClientNetworkingJSExport>
+#else
+@interface KVAConsentClient (Networking_Public)
+#endif
+
+
+
+/*!
+ @property networking
+ 
+ @brief An instance of class KVANetworking.
+ */
+@property (strong, nonatomic, nonnull, readonly) KVANetworking *networking;
 
 
 

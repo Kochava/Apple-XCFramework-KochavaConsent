@@ -3,7 +3,7 @@
 //  KochavaConsent
 //
 //  Created by John Bushnell on 7/23/20.
-//  Copyright © 2020 - 2021 Kochava, Inc.  All rights reserved.
+//  Copyright © 2020 - 2022 Kochava, Inc.  All rights reserved.
 //
 
 
@@ -23,13 +23,7 @@
 #endif
 
 #pragma mark KochavaCore
-#ifdef KOCHAVA_FRAMEWORK
-#import <KochavaCore/KochavaCore.h>
-#else
-#import "KVAAsForContextObjectProtocol.h"
-#import "KVAConfigureWithObjectProtocol.h"
-#import "KVAFromObjectProtocol.h"
-#endif
+@import KochavaCore;
 
 
 
@@ -64,19 +58,15 @@
  @class KVAUSPrivacy
  
  @brief A controller for working with usPrivacy.
- 
- @author John Bushnell
- 
- @copyright 2019 - 2021 Kochava, Inc.
  */
 @interface KVAUSPrivacy : NSObject
 <
 #if TARGET_OS_TV
 KVAUSPrivacyJSExport,
 #endif
-KVAAsForContextObjectProtocol,
-KVAConfigureWithObjectProtocol,
-KVAFromObjectProtocol
+KVAAsForContextProtocol,
+KVAConfigureWithProtocol,
+KVAFromProtocol
 >
 
 

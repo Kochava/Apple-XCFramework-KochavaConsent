@@ -3,7 +3,7 @@
 //  KochavaConsent
 //
 //  Created by John Bushnell on 12/13/19.
-//  Copyright © 2019 - 2021 Kochava, Inc. All rights reserved.
+//  Copyright © 2019 - 2022 Kochava, Inc. All rights reserved.
 //
 
 
@@ -18,13 +18,7 @@
 
 
 #pragma mark KochavaCore
-#ifdef KOCHAVA_FRAMEWORK
-#import <KochavaCore/KochavaCore.h>
-#else
-#import "KVAAsForContextObjectProtocol.h"
-#import "KVAConfigureWithObjectProtocol.h"
-#import "KVAFromObjectProtocol.h"
-#endif
+@import KochavaCore;
 
 
 
@@ -32,11 +26,25 @@
 
 
 
-@interface KVAConsentConfiguration : NSObject <NSCopying, KVAAsForContextObjectProtocol, KVAConfigureWithObjectProtocol, KVAFromObjectProtocol>
+@interface KVAConsentConfiguration : NSObject <NSCopying, KVAAsForContextProtocol, KVAConfigureWithProtocol, KVAFromProtocol>
 
 
 
-#pragma mark - PROPERTIES
+#pragma mark - Checking if a Mode is Present
+
+
+
+/*!
+ @method - modePresent(withNameString:)
+ 
+ @brief Returns a boolean indicating if a mode is currently present.
+ */
+- (BOOL)modePresentWithNameString:(nonnull NSString *)nameString
+    NS_SWIFT_NAME(modePresent(withNameString:));
+
+
+
+#pragma mark - Properties
 
 
 
@@ -66,20 +74,6 @@
  @discussion This might be checked instead of waiting for the optional closure to be called.
  */
 @property (readonly) BOOL readyBool;
-
-
-
-#pragma mark - GENERAL
-
-
-
-/*!
- @method - modePresent(withNameString:)
- 
- @brief Returns a boolean indicating if a mode is currently present.
- */
-- (BOOL)modePresentWithNameString:(nonnull NSString *)nameString
-    NS_SWIFT_NAME(modePresent(withNameString:));
 
 
 
