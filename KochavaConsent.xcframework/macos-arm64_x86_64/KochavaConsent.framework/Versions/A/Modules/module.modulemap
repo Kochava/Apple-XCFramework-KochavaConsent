@@ -6,6 +6,6 @@ framework module KochavaConsent {
 }
 
 module KochavaConsent.Swift {
-    header "KochavaConsent-Swift.h"
-    requires objc
+  header "KochavaConsent-Swift.h"
+  requires objc
 }

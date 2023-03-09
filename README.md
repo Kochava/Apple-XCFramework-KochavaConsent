@@ -6,20 +6,20 @@
 
 ## KochavaConsent
 
-The KochavaConsent module is an optional module within the Kochava SDK providing management of user consent.  This includes support for CCPA and GDPR.
+The KochavaConsent xcframework is an optional module within the Kochava SDK providing management of user consent.  This includes support for CCPA and GDPR.
 
-The Kochava SDK is a lightweight and easy to integrate SDK written in Objective-C and Swift, providing first-class integration with Kochava’s industry leading mobile attribution and analytics platform.
+The Kochava SDK is a lightweight and easy to integrate SDK written in Swift, providing first-class integration with Kochava’s industry leading mobile attribution and analytics platform.
 
 ## Built on
 
-* Xcode 12.4
+* Xcode 14.1
 
 ## Platforms
 
-* iOS 10.3
+* iOS 12.4
 * macOS 10.14
-* tvOS 10.2
-* watchOS 3.2
+* tvOS 12.4
+* watchOS 5.2
 
 For a typical Kochava Consent integration, you need only include the Core and Consent modules. Other modules may be added depending on your needs.
 
@@ -30,7 +30,7 @@ For a typical Kochava Consent integration, you need only include the Core and Co
 
 ## Integration
 
-[Kochava Apple SDK Integration](https://support.kochava.com/sdk-integration/sdk-kochavatracker-ios)
+[Kochava Apple SDK Integration](https://support.kochava.com/sdk-integration/ios-sdk-integration/)
 
 ## Author
 
@@ -39,17 +39,3 @@ Kochava, support@kochava.com
 ## License
 
 KochavaConsent is available under the [Kochava Terms of Service](https://www.kochava.com/terms-of-service/).
-
-
-## Default Branch
-
-As of October 1, 2020, github.com uses the branch name ‘main’ when creating the initial default branch for all new repositories.  In order to minimize any customizations in our github usage and to support consistent naming conventions, we have made the decision to rename the ‘master’ branch to be called ‘main’ in all Kochava’s github repos.
-
-For local copies of the repo, the following steps will update to the new default branch:
-
-```
-git branch -m master main
-git fetch origin
-git branch -u origin/main main
-git remote set-head origin -a
-```

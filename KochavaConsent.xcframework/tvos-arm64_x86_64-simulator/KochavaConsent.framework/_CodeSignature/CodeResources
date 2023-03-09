@@ -6,174 +6,174 @@
 	<dict>
 		<key>Headers/KVAConsentClient.h</key>
 		<data>
-		t3aW3aO2MzkH5voGXOB0jWdkJFM=
+		elB0C1LxWUpN10xlxSc3tRrQrnc=
 		</data>
 		<key>Headers/KVAConsentDialogNavigationController.h</key>
 		<data>
-		Qf3oISbY2ncvTAXIlb5I6wn2Hio=
+		+EjvBdg0/zQVbqzLnYGe5DkEtCo=
 		</data>
 		<key>Headers/KochavaConsent-Swift.h</key>
 		<data>
-		49fwWv86zgDh9ty+dL0MpkflS7U=
+		s4LxreXSRFWls7r0A3r9MQc87j4=
 		</data>
 		<key>Headers/KochavaConsent.h</key>
 		<data>
-		rHMdEiL4JwOOdb0g4pnOewjEz+c=
+		tJm6B5vRnL4Lc1aJFSdI52Q3qIk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Y4laXZ3ECNQ0r8jWN4C0pepk/oA=
+		wvOwRTXwa6qE8fZhxseff7TxlXQ=
+		</data>
+		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
+		<data>
+		iZ8u9SRGuwbcIP+cJGMEaMF4V3k=
+		</data>
+		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
+		<data>
+		titlW/2EqZqIdQ9h9jzDcrMfwt4=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		h14AO/1BTad4sgv9/tYHhEkCnYc=
+		8bQqEyINExzQnvio4Z18MzTG8uM=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		k/HDQWOZ5gusRbUf5YfyCcgwiT8=
+		titlW/2EqZqIdQ9h9jzDcrMfwt4=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		iURavgnl9hJIh+CqJMZJVu/W5oo=
+		H1ZYl06hDfw1lvSS85fRIx/g8do=
+		</data>
+		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
+		<data>
+		iZ8u9SRGuwbcIP+cJGMEaMF4V3k=
+		</data>
+		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
+		<data>
+		AUk5XAxtB6pGdCC/DYIor+P8Tv0=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		EZEYxRp8ZUfGembwPRBjo0sMgBE=
+		lvUFDnyCDThcyjA/f+CpqCbvLEs=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		R/xLQdWUD9cSGYS2AnGHloOVSVw=
+		AUk5XAxtB6pGdCC/DYIor+P8Tv0=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		T0Wv4TqBjlJyJKiyCTIm+Tq9Mcs=
+		B5dGn01rvSPVoo2scTf0Nwohr+Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		cgJiofe4WxR/Di47tcBGkxSNoZM=
+		i/UlK99fNzMFdHCwjkxD+qQseqE=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/KVAConsentClient.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t3aW3aO2MzkH5voGXOB0jWdkJFM=
-			</data>
 			<key>hash2</key>
 			<data>
-			w4MR8zzR+XJpjxOwLIXNiYZ4ZU/nzWQMmt40G93zeq8=
+			cDodklcgH5z7NizVAI2uowy4CxPsyvG5jYD1AoXyVZ4=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentDialogNavigationController.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Qf3oISbY2ncvTAXIlb5I6wn2Hio=
-			</data>
 			<key>hash2</key>
 			<data>
-			XPUIVYrs5YzFMu73w1FAs/yx9JnUWTUoOiV90EzrJmg=
+			/7BzPGvuhbXBBvviQ5TWaRMXhzG51KRglNrp+dGkFHA=
 			</data>
 		</dict>
 		<key>Headers/KochavaConsent-Swift.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			49fwWv86zgDh9ty+dL0MpkflS7U=
-			</data>
 			<key>hash2</key>
 			<data>
-			YHXvB6l4KQ4Ih29VAOKYId5js+Czm6UGeT4+HdESqoA=
+			BMgSjnce5UfVfM8IafC0sW4p+BGBFxQs57Pyv2LPQfQ=
 			</data>
 		</dict>
 		<key>Headers/KochavaConsent.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rHMdEiL4JwOOdb0g4pnOewjEz+c=
-			</data>
 			<key>hash2</key>
 			<data>
-			NfuGxoOejopw3IylNQcr7YaGuo+vGLbvryE6UPC7Bsc=
+			vQq7a3ceenNbrtO6sDmc5SU5MDNdlOw+yKsiKcV/h9g=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xXvPxDrAM6LlotZMQhWfn+VGfC889Q8GUsqQ+5e7ap0=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8M+v7x4g5EQUfARGUKpEqLcfqQQ/56IVqynyWXt9TJw=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			h14AO/1BTad4sgv9/tYHhEkCnYc=
-			</data>
 			<key>hash2</key>
 			<data>
-			aWEfmYxMqc9rwOfsIjcscdmSgiFWcZ/7RZ7L3agNMUw=
+			A3LN6dLZyjO5xmIe4lt4aYtdlIxOtuJ8LSTeMzZqup0=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			k/HDQWOZ5gusRbUf5YfyCcgwiT8=
-			</data>
 			<key>hash2</key>
 			<data>
-			Y9MxgpW7xwSs6bnleHDwltwmfqB78JOs3eBZv8d0Vqw=
+			8M+v7x4g5EQUfARGUKpEqLcfqQQ/56IVqynyWXt9TJw=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iURavgnl9hJIh+CqJMZJVu/W5oo=
-			</data>
 			<key>hash2</key>
 			<data>
-			Qo3NkXp3iRxNgLXR92lOwwDofv7gnCM2Qy8AVZUEJos=
+			JJEdzPWyZOswxE5I+ZWryRn3eee+i2Su3uajCyn4kyU=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xXvPxDrAM6LlotZMQhWfn+VGfC889Q8GUsqQ+5e7ap0=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ekcC1pOcbdNyWx7SHD1otgKykJkV+Ym0zktsqwJ2FLk=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			EZEYxRp8ZUfGembwPRBjo0sMgBE=
-			</data>
 			<key>hash2</key>
 			<data>
-			z461JlRV3IQjhKLAYi8a5wV8d5jcI3At6T8KPt0vm54=
+			JIasgyw2wfRogQvCjmUUKQ13OK8hGOZ/PF6tEexEEDE=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			R/xLQdWUD9cSGYS2AnGHloOVSVw=
-			</data>
 			<key>hash2</key>
 			<data>
-			/pi+HfklOLAzN4/ebPNG2Dh4ohlL9rSkor1ql/Z2fUQ=
+			ekcC1pOcbdNyWx7SHD1otgKykJkV+Ym0zktsqwJ2FLk=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			T0Wv4TqBjlJyJKiyCTIm+Tq9Mcs=
-			</data>
 			<key>hash2</key>
 			<data>
-			8TYZevGo63Oa3bBQsPPnCY5jxanprS5m9ghZs0W7pxk=
+			sdBGFw9bjTk+3drA6vFiWfn94+vU6bj2pu2OvjS4bP4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			cgJiofe4WxR/Di47tcBGkxSNoZM=
-			</data>
 			<key>hash2</key>
 			<data>
-			hGblin8GQBl5Rn9ziN8kWPr6QBL1qE9UmShSaR3nPsY=
+			hg+aELBJtPnoXkZejy4XKkhuAXcPCjYTKSOXREKLxJI=
 			</data>
 		</dict>
 	</dict>

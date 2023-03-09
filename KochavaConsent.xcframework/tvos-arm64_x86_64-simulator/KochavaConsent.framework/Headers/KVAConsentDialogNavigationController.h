@@ -3,7 +3,7 @@
 //  KochavaConsent
 //
 //  Created by John Bushnell on 2/18/20.
-//  Copyright © 2020 - 2022 Kochava, Inc. All rights reserved.
+//  Copyright © 2020 - 2023 Kochava, Inc.  All rights reserved.
 //
 
 
@@ -45,7 +45,7 @@
 typedef void (^ KVAConsentDialogNavigationControllerDidCompleteBlock)
 (
     KVAConsentDialogNavigationController * _Nonnull consentDialogNavigationController
-);
+ ) DEPRECATED_MSG_ATTRIBUTE("renamed to 'KVAConsentDialogNavigationController.Closure_DidComplete'.  Use 'KVAConsentDialogNavigationController.Closure_DidComplete' instead.  If in Objective-C then describe the closure through its low-level format instead.  Example: void (^closure_didComplete)(KVAConsentDialogNavigationController * _Nonnull consentDialogNavigationController) = ^(KVAConsentDialogNavigationController * _Nonnull consentDialogNavigationController) { /* ... */ };");
 
 
 
@@ -58,7 +58,7 @@ typedef void (^ KVAConsentDialogNavigationControllerDidRequestToOpenURLBlock)
 (
     KVAConsentDialogNavigationController * _Nonnull consentDialogNavigationController,
     NSURL * _Nonnull url
-);
+ ) DEPRECATED_MSG_ATTRIBUTE("renamed to 'KVAConsentDialogNavigationController.Closure_DidRequestToOpenURL'.  Use 'KVAConsentDialogNavigationController.Closure_DidRequestToOpenURL' instead.  If in Objective-C then describe the closure through its low-level format instead.  Example: void (^closure_didRequestToOpenURL)(KVAConsentDialogNavigationController * _Nonnull consentDialogNavigationController, NSURL * _Nonnull url) = ^(KVAConsentDialogNavigationController * _Nonnull consentDialogNavigationController, NSURL * _Nonnull url) { /* ... */ };");
 
 
 

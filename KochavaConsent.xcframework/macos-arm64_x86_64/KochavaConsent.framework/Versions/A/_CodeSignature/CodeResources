@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		JUdGJGsuLFNgeY0wCG8wJhMdrNQ=
+		d1HzTo/h6ri2EITQAAecyCB7/kg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,84 +15,112 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w4MR8zzR+XJpjxOwLIXNiYZ4ZU/nzWQMmt40G93zeq8=
+			cDodklcgH5z7NizVAI2uowy4CxPsyvG5jYD1AoXyVZ4=
 			</data>
 		</dict>
 		<key>Headers/KVAConsentDialogNavigationController.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XPUIVYrs5YzFMu73w1FAs/yx9JnUWTUoOiV90EzrJmg=
+			/7BzPGvuhbXBBvviQ5TWaRMXhzG51KRglNrp+dGkFHA=
 			</data>
 		</dict>
 		<key>Headers/KochavaConsent-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kw9sAKJ1swhq2rHDXw0FwYtJ+7mht87Rr7ib0EEuK1I=
+			QkSFnSzf3vGoGeoHzBUcp20Cp/il+k0eDMyy6+IQ1jw=
 			</data>
 		</dict>
 		<key>Headers/KochavaConsent.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NfuGxoOejopw3IylNQcr7YaGuo+vGLbvryE6UPC7Bsc=
+			vQq7a3ceenNbrtO6sDmc5SU5MDNdlOw+yKsiKcV/h9g=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-macos.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wb2ed9FORHJgQjrxvADly44AUCs8GhUqM6mzlhDimsc=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			E0uHmi5dsp8ORrQZBRaphuhEtP6JskI9qZtVAjV3M5w=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dMkz/YNcOahiBkjw9343DGjnBqeF0FJ9l6bNMYHkl5c=
+			nsPYWSPYVlt28tuk+JFEeAL7Ad6hzthqojQfU3du3iI=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ETUrRBPBSpyNwZ5ZD1/C28po6G6jg/x3OCV6Z1K6Gac=
+			E0uHmi5dsp8ORrQZBRaphuhEtP6JskI9qZtVAjV3M5w=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0g2E3/VwVcfDHCcWrEOPCS+n2vSFyaO3XSVZMQJhwyQ=
+			y9tCdKQXC0tdnn4n2yjGNZYBDRoHgkbV5pIwD0L2CtU=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-macos.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wb2ed9FORHJgQjrxvADly44AUCs8GhUqM6mzlhDimsc=
+			</data>
+		</dict>
+		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Dxr4eyVMVwEcJ1xO2jEH0ohmClqUxuYs3JSUK2gktYM=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			34GIFlaujH62B8KGKVCLejCcZVS2HoZ4tgec++19LBk=
+			Godn26mqv9+9VTffY6+ss5pDJMYtSdn8qJYFkZh7pJM=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xiVOSUI9Tcneq7VkKwWQ9RwI4E10/9hoQzvkNOvPnTk=
+			Dxr4eyVMVwEcJ1xO2jEH0ohmClqUxuYs3JSUK2gktYM=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xy51mext+KBVbElrCpc5nWvjqupTVO8qsp6ga7LXTOg=
+			TbHVLkBb4VDfDHR9rjtb0czrBVw+P+jflmrVvIq8sls=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hGblin8GQBl5Rn9ziN8kWPr6QBL1qE9UmShSaR3nPsY=
+			hg+aELBJtPnoXkZejy4XKkhuAXcPCjYTKSOXREKLxJI=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IgCunwp4d3I++h7j6GKAFcmoB61y9/yuRX+JA+evDAI=
+			BeanlHfU4lJVmkyADP13P2Cp9ETJrNnfV7BxGPcsqUk=
 			</data>
 		</dict>
 	</dict>

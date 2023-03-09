@@ -3,7 +3,7 @@
 //  KochavaConsent
 //
 //  Created by John Bushnell on 8/2/22.
-//  Copyright © 2020 - 2022 Kochava, Inc. All rights reserved.
+//  Copyright © 2020 - 2023 Kochava, Inc.  All rights reserved.
 //
 
 
@@ -43,7 +43,7 @@
 typedef void (^ KVAConsentConfigurationDidReceiveClosure)
 (
     KVAConsentConfiguration * _Nonnull configuration
-);
+ ) DEPRECATED_MSG_ATTRIBUTE("renamed to 'KVAConsentClient.Closure_Configuration_DidReceive'.  Use 'KVAConsentClient.Closure_Configuration_DidReceive' instead.  If in Objective-C then describe the closure through its low-level format instead.  Example: void (^closure_configuration_didReceive)(KVAConsentConfiguration * _Nonnull configuration) = ^(KVAConsentConfiguration * _Nonnull configuration) { /* ... */ };");
 
 
 
