@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qcCN7vUBvN6rixrHPLlZmahfzPc=
+		PWCkqoEmfbg16pPcZGJS49ij+RI=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-watchos.abi.json</key>
 		<data>
-		vt3HXnLSD1o0oXs9GALpuBAgUcU=
+		sT8BO5N6Q1XCD1HOLpCYuTRE2BA=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-watchos.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-watchos.swiftmodule</key>
 		<data>
-		9K7DsC3jBRxPwGg/BfFa9QEZOHA=
+		YNLrVlN1wLYKCk1f+g5urGuFqr4=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64_32-apple-watchos.abi.json</key>
 		<data>
-		vt3HXnLSD1o0oXs9GALpuBAgUcU=
+		sT8BO5N6Q1XCD1HOLpCYuTRE2BA=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64_32-apple-watchos.private.swiftinterface</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64_32-apple-watchos.swiftmodule</key>
 		<data>
-		fIdqbrrv4fZIM/kd4KMrvlv/xaA=
+		uNF1GN16hm0sXwGQZ3SMLcL5IpU=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/armv7k-apple-watchos.abi.json</key>
 		<data>
-		vt3HXnLSD1o0oXs9GALpuBAgUcU=
+		sT8BO5N6Q1XCD1HOLpCYuTRE2BA=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/armv7k-apple-watchos.private.swiftinterface</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/armv7k-apple-watchos.swiftmodule</key>
 		<data>
-		IxDGR05x7917uf8VRdYBmT5fg+w=
+		rOiRt4DMABUerKO0bKpmu83p2qQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -139,11 +139,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vt3HXnLSD1o0oXs9GALpuBAgUcU=
+			sT8BO5N6Q1XCD1HOLpCYuTRE2BA=
 			</data>
 			<key>hash2</key>
 			<data>
-			RGcRQCVWGhjKG2+GkmIsSxXEXm9YgSvLgA3tGLHB4Ok=
+			snVVYcRTIb3LGPQARk9mL6puAXQJfMTjfM3exQ8M+yg=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-watchos.private.swiftinterface</key>
@@ -183,22 +183,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9K7DsC3jBRxPwGg/BfFa9QEZOHA=
+			YNLrVlN1wLYKCk1f+g5urGuFqr4=
 			</data>
 			<key>hash2</key>
 			<data>
-			vJlgSGPBQwiWp03z5k2fcVtsPWk8qed6PBE9JidlBmk=
+			o9P96KNFq4VxoQzAd0ElWO2mDdq62vYv2wnngGRxNG0=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/arm64_32-apple-watchos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vt3HXnLSD1o0oXs9GALpuBAgUcU=
+			sT8BO5N6Q1XCD1HOLpCYuTRE2BA=
 			</data>
 			<key>hash2</key>
 			<data>
-			RGcRQCVWGhjKG2+GkmIsSxXEXm9YgSvLgA3tGLHB4Ok=
+			snVVYcRTIb3LGPQARk9mL6puAXQJfMTjfM3exQ8M+yg=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/arm64_32-apple-watchos.private.swiftinterface</key>
@@ -238,22 +238,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fIdqbrrv4fZIM/kd4KMrvlv/xaA=
+			uNF1GN16hm0sXwGQZ3SMLcL5IpU=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZSfEBEybEzR8DCTye/Yn6EpmHlADxut4O87qClIqSXo=
+			amrRm4xlRbLxAwLXQe2fJLsy8T4hjDkSLMYy9GXaYh8=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/armv7k-apple-watchos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vt3HXnLSD1o0oXs9GALpuBAgUcU=
+			sT8BO5N6Q1XCD1HOLpCYuTRE2BA=
 			</data>
 			<key>hash2</key>
 			<data>
-			RGcRQCVWGhjKG2+GkmIsSxXEXm9YgSvLgA3tGLHB4Ok=
+			snVVYcRTIb3LGPQARk9mL6puAXQJfMTjfM3exQ8M+yg=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/armv7k-apple-watchos.private.swiftinterface</key>
@@ -293,11 +293,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IxDGR05x7917uf8VRdYBmT5fg+w=
+			rOiRt4DMABUerKO0bKpmu83p2qQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			0uDhuSPAztHPF4yrin3m6VWm0GnUuT0I3QSOho6eo78=
+			Zz4fRTXzSHOixBz0muMQtzGEAfMp5LlnzT1iUQbSOV4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
