@@ -32,7 +32,7 @@
 #endif
 
 #pragma mark KochavaCore
-@import KochavaCore;
+#import <KochavaCore/KochavaCore.h>
 
 #pragma mark KochavaUI
 #import <KochavaUI/KochavaUI.h>

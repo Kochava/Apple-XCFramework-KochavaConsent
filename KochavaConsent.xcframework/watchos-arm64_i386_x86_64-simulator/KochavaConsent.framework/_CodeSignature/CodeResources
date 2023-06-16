@@ -18,15 +18,15 @@
 		</data>
 		<key>Headers/KochavaConsent.h</key>
 		<data>
-		tJm6B5vRnL4Lc1aJFSdI52Q3qIk=
+		bGwtV0JW86jB2fJZglqu/Ol7Ef8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1iM+20Fyc7bHbeGUCEiqCfde/lI=
+		9BrMFOqtD9krKG4AqQwr7TFCbM4=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
-		sT8BO5N6Q1XCD1HOLpCYuTRE2BA=
+		+XA+XqbD/fH3Urx82Mg0pfmDBi0=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		8k8rMkhWhUbkMT/ifmCYOP2sIJA=
+		a4GuLSJJTza7OA2HGnNFpGinhDw=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/i386-apple-watchos-simulator.abi.json</key>
 		<data>
-		sT8BO5N6Q1XCD1HOLpCYuTRE2BA=
+		+XA+XqbD/fH3Urx82Mg0pfmDBi0=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/i386-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/i386-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		A85fgbQ0cUHKXz4Gmf26rgflGto=
+		9dca8u8+q9O1A9R7Fiz2nTTNI/M=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
-		sT8BO5N6Q1XCD1HOLpCYuTRE2BA=
+		+XA+XqbD/fH3Urx82Mg0pfmDBi0=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		/nu4XD6Rh5LD6OvXz5POdgC7brc=
+		iTOcwCIR07TjPX2q65sIBq+VN6o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -128,22 +128,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tJm6B5vRnL4Lc1aJFSdI52Q3qIk=
+			bGwtV0JW86jB2fJZglqu/Ol7Ef8=
 			</data>
 			<key>hash2</key>
 			<data>
-			vQq7a3ceenNbrtO6sDmc5SU5MDNdlOw+yKsiKcV/h9g=
+			+makTpQopGNzh76zU0Ga7rYdK7P5yL5Jp5+CPmHkluk=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sT8BO5N6Q1XCD1HOLpCYuTRE2BA=
+			+XA+XqbD/fH3Urx82Mg0pfmDBi0=
 			</data>
 			<key>hash2</key>
 			<data>
-			snVVYcRTIb3LGPQARk9mL6puAXQJfMTjfM3exQ8M+yg=
+			FmiSvvwOWQsp/A+zkoE6G7SenrmllFUURAzudwrOb9c=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
@@ -183,22 +183,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8k8rMkhWhUbkMT/ifmCYOP2sIJA=
+			a4GuLSJJTza7OA2HGnNFpGinhDw=
 			</data>
 			<key>hash2</key>
 			<data>
-			eofAyOV0Ggrd7/+e2CfY5qhBHhIgiwpGBU0TNvalJyA=
+			n0OcFQ4qQSZLHmC+ZQ3Xwbc/8rKYu1urB7OomGnoJwk=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/i386-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sT8BO5N6Q1XCD1HOLpCYuTRE2BA=
+			+XA+XqbD/fH3Urx82Mg0pfmDBi0=
 			</data>
 			<key>hash2</key>
 			<data>
-			snVVYcRTIb3LGPQARk9mL6puAXQJfMTjfM3exQ8M+yg=
+			FmiSvvwOWQsp/A+zkoE6G7SenrmllFUURAzudwrOb9c=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/i386-apple-watchos-simulator.private.swiftinterface</key>
@@ -238,22 +238,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			A85fgbQ0cUHKXz4Gmf26rgflGto=
+			9dca8u8+q9O1A9R7Fiz2nTTNI/M=
 			</data>
 			<key>hash2</key>
 			<data>
-			IAeVc6ewQ6PPsVjw21T2NQ8ePHAsHpyixve9cb6qdP4=
+			TUbAfF+gVqtNjlYjQfof90FroIqJSehJxl3dJTIks0s=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sT8BO5N6Q1XCD1HOLpCYuTRE2BA=
+			+XA+XqbD/fH3Urx82Mg0pfmDBi0=
 			</data>
 			<key>hash2</key>
 			<data>
-			snVVYcRTIb3LGPQARk9mL6puAXQJfMTjfM3exQ8M+yg=
+			FmiSvvwOWQsp/A+zkoE6G7SenrmllFUURAzudwrOb9c=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
@@ -293,11 +293,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/nu4XD6Rh5LD6OvXz5POdgC7brc=
+			iTOcwCIR07TjPX2q65sIBq+VN6o=
 			</data>
 			<key>hash2</key>
 			<data>
-			QbqMrlZRaMMGPJjAQhqOacJZrynxnn1U9eL1Af4hrQ8=
+			dQGky6lEuAjAGSiRjYRwbJcVS0iPzKgg+FsN45Uq1N0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

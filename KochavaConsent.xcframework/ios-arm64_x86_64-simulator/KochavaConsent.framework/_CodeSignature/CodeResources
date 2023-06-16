@@ -18,11 +18,11 @@
 		</data>
 		<key>Headers/KochavaConsent.h</key>
 		<data>
-		tJm6B5vRnL4Lc1aJFSdI52Q3qIk=
+		bGwtV0JW86jB2fJZglqu/Ol7Ef8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		TA9wXN+SoL6saxCXgDUlk8DIJWw=
+		9U2MVAZeVt5Lx5pe6KBbtng8dRU=
 		</data>
 		<key>KVAConsentDialogViewController.nib</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		vn8d7FWcaVyPsmmeK/wX+psy6KA=
+		tS0GtcdcDYBXlH6EaQisknceNIk=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NJfQPJ4rjO2rBBS20sPlGk4ocH4=
+		XXncPDzVTgbBRmiqLvVT57YRM6s=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vn8d7FWcaVyPsmmeK/wX+psy6KA=
+		tS0GtcdcDYBXlH6EaQisknceNIk=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lg4aOCwnUVH1xL7d+MfwIR6YiJU=
+		WL7jARLwbV9DFjwh9Sb1pQAxtvo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vQq7a3ceenNbrtO6sDmc5SU5MDNdlOw+yKsiKcV/h9g=
+			+makTpQopGNzh76zU0Ga7rYdK7P5yL5Jp5+CPmHkluk=
 			</data>
 		</dict>
 		<key>KVAConsentDialogViewController.nib</key>
@@ -114,7 +114,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Fem4lSyex7mJzT3YBDs+HHlJwhCG/kmsHZrvoZGU2E=
+			FZWbMVOQTkiGlhRvKgXQM9HkqxycqkXKcxVth7sGgq0=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -142,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3HzcVmbloOkVolpD/jIE9M6SB1yO7jlHP/Nv6ikGvzA=
+			8iZX+FTfiqpYF9Kut6c5+l+ZhWQHAoWartXLKBljSek=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Fem4lSyex7mJzT3YBDs+HHlJwhCG/kmsHZrvoZGU2E=
+			FZWbMVOQTkiGlhRvKgXQM9HkqxycqkXKcxVth7sGgq0=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -177,7 +177,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XKRRq9FrEn8B9NqOfTGcbp/COhgXrB5p/ygJCvJCzmc=
+			tDiq0mXYb85jGbawGyCvr/V67n8tvE/vUF/VxKs37Pg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
