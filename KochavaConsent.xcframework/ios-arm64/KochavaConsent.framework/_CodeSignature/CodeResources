@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mmwsmlN927OJ9egQAsFSrtTfZAg=
+		tncjEXXhNGoVMG2cTSTZnLcX1uY=
 		</data>
 		<key>KVAConsentDialogViewController.nib</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		tS0GtcdcDYBXlH6EaQisknceNIk=
+		+VElkJvPDbf7/HbZ7UNq3IqxWJ8=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		cruQrTH5QbkE6GBsVCFXtD48bOU=
+		WTi3ONEEUyrTlMnvvdMFi1qmLHs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -94,7 +94,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FZWbMVOQTkiGlhRvKgXQM9HkqxycqkXKcxVth7sGgq0=
+			p7jrFCGQq1RpvBghspjN3CpqIC+HU7r/616FNbg+A2M=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			69boEyT3E4MWdiNwRHW6C5BnEb4CZCXLd9lS6iTviVg=
+			/gmMQvaMl0FPIIPwugJMN1D20kZVIP7PdpyUAwRELLE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

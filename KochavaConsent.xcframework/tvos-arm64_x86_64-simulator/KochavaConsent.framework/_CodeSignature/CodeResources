@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AfBwt+olIUZkq9+kBfFsTl1OcTk=
+		UXsEBsRL+J0oI9DWLzO8eGPZVpY=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		tS0GtcdcDYBXlH6EaQisknceNIk=
+		+VElkJvPDbf7/HbZ7UNq3IqxWJ8=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		lsYh1dA4k7quDebI+2edgUehvdo=
+		yVvZjkoP3acS6DNivClcfDyVV+o=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		tS0GtcdcDYBXlH6EaQisknceNIk=
+		+VElkJvPDbf7/HbZ7UNq3IqxWJ8=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		OR9lzfmUAV2YqpErnacNfVX1Pls=
+		V6rjkWUZx2IJtqFSJ5G5sEPIZiY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FZWbMVOQTkiGlhRvKgXQM9HkqxycqkXKcxVth7sGgq0=
+			p7jrFCGQq1RpvBghspjN3CpqIC+HU7r/616FNbg+A2M=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
@@ -131,14 +131,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1vKSYP7rC9DZGVNzBgqsmWM/97rB1IcnNrlDMJXnmuc=
+			vzN3Bg71tgXvF9mfjbJqO8jlyk6WHbQDRk8SCPLA4Iw=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FZWbMVOQTkiGlhRvKgXQM9HkqxycqkXKcxVth7sGgq0=
+			p7jrFCGQq1RpvBghspjN3CpqIC+HU7r/616FNbg+A2M=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YGJ8rsEPdRyWVi719DwNOr/UvfPmhqDG8gusq43SzwA=
+			gWtne60/sWEFk1izzJKlNZHZVyzWETpTE9s0Tf51/20=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

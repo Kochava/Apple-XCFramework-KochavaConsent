@@ -22,11 +22,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fS9DOaehM+oCvux07MibcTrfY6g=
+		HgL6FEzany5UEx+15aPg3BtOKs0=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<data>
-		tS0GtcdcDYBXlH6EaQisknceNIk=
+		+VElkJvPDbf7/HbZ7UNq3IqxWJ8=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos.swiftmodule</key>
 		<data>
-		EPvofPeemyZvUrNKY5uMjPVXhEM=
+		qgmU9+x8/urf7sp1KPsSD5lGImg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,7 +83,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FZWbMVOQTkiGlhRvKgXQM9HkqxycqkXKcxVth7sGgq0=
+			p7jrFCGQq1RpvBghspjN3CpqIC+HU7r/616FNbg+A2M=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
@@ -111,7 +111,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OZGH+tFIU2h9ZrrEkGgOBOAoLK0MKNab/inoUSo6228=
+			e2Pa8/nxoSn0p3Ff8lm7kmFJhI+NVAPcJbZg1Qc1828=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
