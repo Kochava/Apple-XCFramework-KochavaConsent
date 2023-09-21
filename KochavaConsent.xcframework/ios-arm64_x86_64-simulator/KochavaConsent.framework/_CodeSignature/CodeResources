@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+394a8r5YgCmh14sapQXz+dU85g=
+		Lh9zfHufjacs/FzQLNRt/X5DwDQ=
 		</data>
 		<key>KVAConsentDialogViewController.nib</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+VElkJvPDbf7/HbZ7UNq3IqxWJ8=
+		2FNrRy6KZrGGTyNSCik+XwBpKCM=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fqekgQZ2qP7jscumirzu9rVhTdY=
+		4lbHJnbDlP6eg8+QycvieIpYU6M=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+VElkJvPDbf7/HbZ7UNq3IqxWJ8=
+		2FNrRy6KZrGGTyNSCik+XwBpKCM=
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CDIBi3aY+tZejVsxKRQHaYSRods=
+		QsaEs+Msf9KfwoWSclLJPFUVndo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -114,7 +114,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p7jrFCGQq1RpvBghspjN3CpqIC+HU7r/616FNbg+A2M=
+			ijY/alv38JFGXJu5x+cLbQEA9gPy1YrTq2Rfez9h8fc=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -142,14 +142,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iCb6Lqd5o+7BtxV+Fx4LTbfo/teOMXhN02jiZA/zKaY=
+			jLl7jZR18M2cUtfdO1ijCtJQ7ODnTxG2jU4Pp3gREkM=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p7jrFCGQq1RpvBghspjN3CpqIC+HU7r/616FNbg+A2M=
+			ijY/alv38JFGXJu5x+cLbQEA9gPy1YrTq2Rfez9h8fc=
 			</data>
 		</dict>
 		<key>Modules/KochavaConsent.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -177,7 +177,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sxnjd8Pp5Hmz8INc9CS1xuT6nb2hwYVZNPVAxrSKYUE=
+			bOJm+rVfLjmsElwtNj7dNXvA0oSdfvC6yMJQ+xRVSuY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
